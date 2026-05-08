@@ -68,9 +68,9 @@
 - [x] Azure free account created
 - [x] GitHub profile professionalised
 - [x] LES-Master repository created with README
-- [ ] GitBook space created and connected to GitHub
+- [x] GitBook space created and connected to GitHub
 - [ ] LinkedIn professional presence activated
-- [ ] AZ-900 study begun (Microsoft Learn)
+- [X] AZ-900 study begun (Microsoft Learn)
 - [ ] GitHub Foundations study begun
 - [ ] Master architecture diagram started
 - [ ] First GitBook entry published
@@ -88,6 +88,8 @@
 | 4   | Four-layer portfolio architecture             | Each layer serves a distinct audience and purpose.                        | May 2026 |
 | 5   | UK English for all outputs                    | Professional consistency across all published work.                       | May 2026 |
 | 6   | No shortcuts on understanding                 | Every layer understood before built. Depth is the standard.               | May 2026 |
+| 7   | West Europe (Germany) as primary Azure region | Optimal latency, full GDPR compliance, mature feature set.                | May 2026 |
+| 8   |Monthly budget alert set at €10/80% threshold  | Cost governance implemented before first resource deployment              | May 2026 |
 
 ---
 
@@ -96,11 +98,11 @@
 | Task                               | Priority | Chat Type       | Status      |
 | ---------------------------------- | -------- | --------------- | ----------- |
 | Create GitHub account              | High     | LES-SETUP       | Completed   |
-| Create Azure free account          | High     | LES-SETUP       | Not Started |
+| Create Azure free account          | High     | LES-SETUP       | Completed   |
 | Create GitBook account             | High     | LES-SETUP       | Completed   |
 | Professionalise GitHub profile     | High     | LES-SETUP       | Completed   |
-| Create LES-Master repository       | High     | LES-SETUP       | Not started |
-| Begin AZ-900 on Microsoft Learn    | High     | LES-LEARN-AZ900 | Not started |
+| Create LES-Master repository       | High     | LES-SETUP       | Completed   |
+| Begin AZ-900 on Microsoft Learn    | High     | LES-LEARN-AZ900 | Started     |
 | Draft LinkedIn article 1           | Medium   | LES-DOCS        | Not started |
 | Create master architecture diagram | Medium   | LES-BUILD       | Not started |
 

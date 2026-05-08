@@ -2,7 +2,7 @@
 ## Master Roadmap — Version 2.0
 **Classification:** Living Document | Portfolio Layer: GitBook  
 **Last Updated:** May 2026  
-**Author:** [Your Name]  
+**Author:** Nicolette MArtine Langendam  
 **Status:** Active — Phase 0 in progress
 
 ---
@@ -284,42 +284,46 @@ The LES portfolio operates across four distinct layers, each serving a different
 
 ---
 
-## 6. Technology Stack
+## 6. Technology Stack — Proposed Options
 
-| Layer | Primary Technology | Alternative / Complement |
-|---|---|---|
-| Cloud Platform | Microsoft Azure | — |
-| Database (Relational) | Azure SQL Database | PostgreSQL (where warranted) |
-| Database (NoSQL) | Azure Cosmos DB | — |
-| Data Warehouse | Microsoft Fabric / Synapse | — |
-| Serverless Compute | Azure Functions | — |
-| Workflow Automation | Azure Logic Apps | Power Automate |
-| Front-end (Personal) | Power Apps / Power BI | Custom React (Phase 3+) |
-| Front-end (Product) | React / Next.js | — |
-| AI & LLM | Azure OpenAI Service | — |
-| Agent Framework | Semantic Kernel / AutoGen | LangChain |
-| Version Control | GitHub | — |
-| Documentation | GitBook (connected to GitHub) | — |
-| Infrastructure as Code | Bicep / Terraform | — |
-| Programming Language | Python | TypeScript (front-end) |
-| Identity & Access | Azure Active Directory (Entra ID) | — |
-| Monitoring | Azure Monitor / Application Insights | — |
+The following represents a starting proposal based on the Azure-first principle and common enterprise patterns. **Nothing here is decided.** Each item will be discussed, understood, and confirmed by you before it is adopted.
+
+| Layer | Proposed Option | Alternative / Complement | Decision Status |
+|---|---|---|---|
+| Cloud Platform | Microsoft Azure | — | To be confirmed |
+| Database (Relational) | Azure SQL Database | PostgreSQL | To be confirmed |
+| Database (NoSQL) | Azure Cosmos DB | — | To be confirmed |
+| Data Warehouse | Microsoft Fabric / Synapse | — | To be confirmed |
+| Serverless Compute | Azure Functions | — | To be confirmed |
+| Workflow Automation | Azure Logic Apps | Power Automate | To be confirmed |
+| Front-end (Personal) | Power Apps / Power BI | Custom React (Phase 3+) | To be confirmed |
+| Front-end (Product) | React / Next.js | — | To be confirmed |
+| AI & LLM | Azure OpenAI Service | — | To be confirmed |
+| Agent Framework | Semantic Kernel / AutoGen | LangChain | To be confirmed |
+| Version Control | GitHub | — | To be confirmed |
+| Documentation | GitBook (connected to GitHub) | — | To be confirmed |
+| Infrastructure as Code | Bicep / Terraform | — | To be confirmed |
+| Programming Language | Python | TypeScript (front-end) | To be confirmed |
+| Identity & Access | Azure Entra ID | — | To be confirmed |
+| Monitoring | Azure Monitor / Application Insights | — | To be confirmed |
 
 ---
 
-## 7. Certification Roadmap — Value-Driven
+## 7. Certification Roadmap — Proposed, Value-Driven
 
-| Certification | Phase | Rationale |
-|---|---|---|
-| AZ-900 Azure Fundamentals | 0 | Cloud literacy baseline. Essential. |
-| GitHub Foundations | 0 | Daily tool. Credentialing the foundation. |
-| DP-900 Data Fundamentals | 1 | Data is the core of LES. Non-negotiable. |
-| AZ-104 Azure Administrator | 1 | Infrastructure depth when building it. |
-| AZ-204 Azure Developer | 2 | Development credibility when building modules. |
-| DP-600 Fabric Analytics Engineer | 3 | Intelligence layer is Fabric-native. |
-| AI-900 Azure AI Fundamentals | 3 | Gateway to agent development. |
-| AI-102 Azure AI Engineer | 4 | Core agent development certification. |
-| AZ-305 Solutions Architect Expert | 5 | Flagship. Earned after building the system. |
+The following certifications are proposed based on relevance to each phase. **None are confirmed.** Each will be evaluated and decided upon when the relevant phase begins.
+
+| Certification | Phase | Proposed Rationale | Decision Status |
+|---|---|---|---|
+| AZ-900 Azure Fundamentals | 0 | Cloud literacy baseline | To be confirmed |
+| GitHub Foundations | 0 | Daily tool used throughout the project | To be confirmed |
+| DP-900 Data Fundamentals | 1 | Data is central to LES | To be confirmed |
+| AZ-104 Azure Administrator | 1 | Infrastructure depth | To be confirmed |
+| AZ-204 Azure Developer | 2 | Development credibility | To be confirmed |
+| DP-600 Fabric Analytics Engineer | 3 | Intelligence layer relevance | To be confirmed |
+| AI-900 Azure AI Fundamentals | 3 | Gateway to agent development | To be confirmed |
+| AI-102 Azure AI Engineer | 4 | Agent development | To be confirmed |
+| AZ-305 Solutions Architect Expert | 5 | Flagship — earned after building | To be confirmed |
 
 ---
 
@@ -343,6 +347,7 @@ Each research stream produces GitBook entries and LinkedIn articles.
 |---|---|---|
 | 1.0 | May 2026 | Initial roadmap created |
 | 2.0 | May 2026 | Refined based on foundational interview. Portfolio layer defined. Certification philosophy clarified. Academic layer added. Technology stack formalised. |
+| 2.1 | May 2026 | Technology stack and certifications reframed as proposals pending student decisions. Mentor role clarified — no autonomous decisions or content creation. |
 
 ---
 

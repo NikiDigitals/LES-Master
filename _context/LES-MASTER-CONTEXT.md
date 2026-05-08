@@ -71,8 +71,16 @@
 - [X] AZ-900 study begun (Microsoft Learn)
 - [ ] GitHub Foundations study begun
 - [ ] Master architecture diagram started
-- [ ] First GitBook entry published
+- [x] First GitBook entry published
 - [ ] First LinkedIn article published: _"Why I Am Building an ERP for My Life"_
+- [x] WordPress homepage built and published
+- [x] Navigation menu confirmed and live
+- [ ] full styling website
+- [ ] LES- project page content
+- [ ] portfolio page structure & content
+- [ ] About page content
+- [ ] Insights page structure
+- [ ] Update all links 
 
 ---
 
@@ -88,6 +96,9 @@
 | 6   | No shortcuts on understanding                 | Every layer understood before built. Depth is the standard.               | May 2026 |
 | 7   | West Europe (Germany) as primary Azure region | Optimal latency, full GDPR compliance, mature feature set.                | May 2026 |
 | 8   |Monthly budget alert set at €10/80% threshold  | Cost governance implemented before first resource deployment              | May 2026 |
+| 9   |  Nikidigitals covers finance systems and technology | brand is broader than LES. Multiple projects will live under one brand| May 2026|
+| 10  | Insights replaces blog                       | Executive level tone. Blog undersells the content                          | May 2026 | 
+| 11  | Styling pass deferred to dedicated section   |  Content first styling second                                              | May 2026|    
 
 ---
 
@@ -103,6 +114,12 @@
 | Begin AZ-900 on Microsoft Learn    | High     | LES-LEARN-AZ900 | Started     |
 | Draft LinkedIn article 1           | Medium   | LES-DOCS        | Not started |
 | Create master architecture diagram | Medium   | LES-BUILD       | Not started |
+| Full styling pass - homepage       | High     | LES-WEBSITE     | Not started |
+| LES project content                | High     | LES-WEBSITE     | Not started |
+| Portfolio page structure & content | High     | LES-WEBSITE     | Not started |
+| About me structure & content       | High     | LES-WEBSITE     | Not started |
+| Insights page structure & content | High     | LES-WEBSITE     | Not started |
+| Update all links                   | High     | LES-WEBSITE     | Not started |
 
 ---
 

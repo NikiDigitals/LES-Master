@@ -80,15 +80,15 @@ LES is simultaneously:
 **Target completion:** Month 3 from start
 
 ### Phase 0 Checklist
-- [x] Azure free account created
+- [ ] Azure free account created
 - [ ] GitHub profile professionalised
-- [x] LES-Master repository created with README
-- [x] GitBook space created and connected to GitHub
+- [ ] LES-Master repository created with README
+- [ ] GitBook space created and connected to GitHub
 - [ ] LinkedIn professional presence activated
 - [ ] AZ-900 study begun (Microsoft Learn)
 - [ ] GitHub Foundations study begun
 - [ ] Master architecture diagram started
-- [x] First GitBook entry published
+- [ ] First GitBook entry published
 - [ ] First LinkedIn article published: *"Why I Am Building an ERP for My Life"*
 - [x] WordPress homepage built and published
 - [x] Navigation menu confirmed and live
@@ -112,7 +112,7 @@ LES is simultaneously:
 | 10 | LES-Infra, LES-API, LES-Portal separated from modules | These are deployable operational components serving all modules. They belong to no single module. | May 2026 |
 | 11 | NikiDigitals covers all projects — Finance, Systems, Technology | Brand is broader than LES. Multiple projects will live under one professional brand. | May 2026 |
 | 12 | Insights replaces Blog | Executive-level tone. Blog undersells the content. | May 2026 |
-| 13 | One GitHub account — NikiDigitals — with LES as a nested GitHub Organisation | Single professional identity. Simpler to manage. NikiDigitals hosts smaller projects directly. LES organisation hosts all module repos. | May 2026 |
+| 13 | All repositories under NikiDigitals personal account | Single professional identity. No separate Organisation. All LES repositories sit directly under github.com/NikiDigitals. Simpler to manage. One account, one identity. | May 2026 |
 | 14 | WordPress for NikiDigitals website — initial version | Purpose of site is professional presence, not technical showcase. Development time invested in LES core architecture. Custom build preserved as future standalone project. | May 2026 |
 | 15 | LES is a portfolio flagship — architecture preserves scaling optionality | Built to production-grade standards to serve career development as Finance Transformation Architect. Productisation is not a current objective. Architecture preserves that option if the decision changes. | May 2026 |
 | 16 | Career target confirmed — Finance Transformation Architect specialising in finance systems | LES is the primary proof of work for this career trajectory. Every architectural, learning, and documentation decision is evaluated against this goal. | May 2026 |
@@ -120,6 +120,7 @@ LES is simultaneously:
 | 18 | Phase 5 renamed — Mastery, Publication & Optionality | Productisation removed as primary objective. Phase 5 focuses on system completion, documentation, academic publication, and career positioning. Scaling remains an option, not a goal. | May 2026 |
 | 19 | Full document taxonomy coding adopted — Option B | Industry-standard notation. ADR prefix for decision records. Module/function code plus numeric suffix for all other documents. Scales cleanly across 13 repositories over 5 years. Signals professional familiarity with enterprise documentation practices. | May 2026 |
 | 20 | Always choose the best long-term option | Short-term convenience is never the deciding factor. Every architectural, tooling, and documentation decision is evaluated against the 5-year horizon. | May 2026 |
+| 21 | All repository names use full uppercase suffix | Naming consistency across all 15 repositories. Convention: LES-[UPPERCASE]. Established during Phase 0 repository creation. | May 2026 |
 
 ---
 
@@ -129,12 +130,10 @@ LES is simultaneously:
 |---|---|---|---|
 | Build GitHub repository structure — folders and README for LES master repo | High | LES-SETUP | Not started |
 | Build GitBook space — top-level structure, sections, and GitHub sync configured | High | LES-SETUP | Not started |
-| Create GitHub account | High | LES-SETUP | Not started |
+| Create GitHub account — NikiDigitals | High | LES-SETUP | ✅ Complete |
+| Professionalise GitHub profile | High | LES-SETUP | Not started |
 | Create Azure free account | High | LES-SETUP | Not started |
 | Create GitBook account | High | LES-SETUP | Not started |
-| Professionalise GitHub profile | High | LES-SETUP | Not started |
-| Create LES GitHub Organisation under NikiDigitals account | High | LES-SETUP | Not started |
-| Transfer existing LES repo into LES Organisation | High | LES-SETUP | Not started |
 | Create WordPress site on chosen host | High | LES-SETUP | Not started |
 | Choose and apply WordPress theme | Medium | LES-SETUP | Not started |
 | Create GitBook space and connect to GitHub | High | LES-SETUP | Not started |
@@ -180,26 +179,27 @@ LES is simultaneously:
 
 ## REPOSITORY ARCHITECTURE
 
-**GitHub Account:** NikiDigitals
-- Smaller portfolio projects live directly on this account
-- LES Organisation is nested within this account
+**GitHub Account:** github.com/NikiDigitals
+- Single professional identity
+- All repositories — LES modules, infrastructure, portfolio, and smaller projects — sit directly under this account
+- No separate Organisation
 
-**LES GitHub Organisation**
+**Repository structure:**
 ```
-LES-Organisation
+github.com/NikiDigitals
 ├── LES                  ← Master: docs, architecture, governance, decisions, research, journal
-├── LES-infrastructure   ← Azure IaC, all environments
-├── LES-portfolio        ← NikiDigitals website (WordPress for now)
-├── LES-fin              ← Finance & Wealth Management
-├── LES-edu              ← Education & Knowledge
-├── LES-prj              ← Projects & Goals
-├── LES-knw              ← Knowledge Base
-├── LES-hlt              ← Health & Performance
-├── LES-rel              ← Relationships & Network
-├── LES-ops              ← Daily Operations
-├── LES-int              ← Intelligence & Analytics
-├── LES-agt              ← AI Agent Orchestration
-└── LES-sec              ← Security, GRC & Compliance
+├── LES-INFRASTRUCTURE   ← Azure IaC, all environments
+├── LES-PORTFOLIO        ← NikiDigitals website (WordPress for now)
+├── LES-FIN              ← Finance & Wealth Management
+├── LES-EDU              ← Education & Knowledge
+├── LES-PRJ              ← Projects & Goals
+├── LES-KNW              ← Knowledge Base
+├── LES-HLT              ← Health & Performance
+├── LES-REL              ← Relationships & Network
+├── LES-OPS              ← Daily Operations
+├── LES-INT              ← Intelligence & Analytics
+├── LES-AGT              ← AI Agent Orchestration
+└── LES-SEC              ← Security, GRC & Compliance
 ```
 
 **Repository creation rule:** Created when content exists — never speculatively.

@@ -35,7 +35,7 @@ LES is simultaneously:
 
 **Concept:** An enterprise-grade ERP system architected around my life as the enterprise. Every life domain (Finance, Health, Education, Projects, Relationships, Operations, Knowledge) is treated as a business department with its own data model, processes, intelligence layer, and AI agent.
 
-**Ambition:** Begin as a personal operating system. Scale to a deployable product others can use.
+**Ambition:** Begin as a personal operating system. Built to production-grade standards as a portfolio flagship. Architecture preserves the option to scale to a deployable product — this is not a current objective.
 
 **Timeline:** 5 years to expert-level. Ongoing development thereafter.
 
@@ -84,17 +84,15 @@ LES is simultaneously:
 - [ ] GitHub profile professionalised
 - [x] LES-Master repository created with README
 - [x] GitBook space created and connected to GitHub
-- [x] LinkedIn professional presence activated
+- [ ] LinkedIn professional presence activated
 - [ ] AZ-900 study begun (Microsoft Learn)
 - [ ] GitHub Foundations study begun
 - [ ] Master architecture diagram started
-- [ ] First GitBook entry published
+- [x] First GitBook entry published
 - [ ] First LinkedIn article published: *"Why I Am Building an ERP for My Life"*
 - [x] WordPress homepage built and published
 - [x] Navigation menu confirmed and live
 - [x] Four-layer portfolio — Executive layer started
-- [ ] Infrastructure for Github
-- [ ] Infrastructure for Gitbook
 
 ---
 
@@ -179,6 +177,8 @@ LES is simultaneously:
 **Styling pass:** Scheduled for the weekend — all pages styled in one session.
 
 ---
+
+## REPOSITORY ARCHITECTURE
 
 **GitHub Account:** NikiDigitals
 - Smaller portfolio projects live directly on this account
@@ -306,8 +306,8 @@ The student is a complete beginner who will become an expert. Treat every sessio
 
 ## ROADMAP DOCUMENT REFERENCE
 
-Full roadmap: `LES-ROADMAP-v2.md` (stored in GitHub and GitBook)  
-Current version: 2.1  
+Full roadmap: `LES-ROAD-001-Master-Roadmap-v3.md` (stored in GitHub and GitBook)  
+Current version: 3.0  
 Last updated: May 2026
 
 ---

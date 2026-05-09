@@ -2,7 +2,7 @@
 ## Master Roadmap — Version 2.0
 **Classification:** Living Document | Portfolio Layer: GitBook  
 **Last Updated:** May 2026  
-**Author:** Nicolette MArtine Langendam  
+**Author:** [Your Name]  
 **Status:** Active — Phase 0 in progress
 
 ---
@@ -252,39 +252,67 @@ The LES portfolio operates across four distinct layers, each serving a different
 
 ---
 
-### PHASE 5 — Productisation & Scale
+### PHASE 5 — Mastery, Publication & Optionality
 **Duration:** Month 48 → Month 60+  
-**Theme:** What was personal becomes universal. The system scales. The expert emerges.
+**Theme:** The system is complete. The expertise is demonstrated. The option to scale exists.
 
 #### Learning Objectives
 - Enterprise solution architecture
-- Multi-tenancy design patterns
 - Security at scale: Zero Trust, identity management, compliance frameworks
 - DevOps and CI/CD pipelines — professional software delivery
-- Product thinking: turning a personal system into something others can use
+- Academic research and publication methodology
+- Product thinking — understanding what scaling would require, without committing to it
 
 #### Certifications
-- **AZ-305 Azure Solutions Architect Expert** — the flagship certification. Earned, not rushed.
+- **AZ-305 Azure Solutions Architect Expert** — the flagship certification. Earned after building the system, not before.
 
 #### Build Deliverables
-- LES abstracted into a deployable framework
-- Multi-tenant architecture supporting external users
-- Full CI/CD pipeline — professional software delivery
-- Complete documentation suite — technical, user, and architectural
-- Open source release strategy
-- Website: full professional product site
+- LES system completion — all modules functional, integrated, and documented
+- Full documentation suite — technical, architectural, and user-facing
+- Complete ADR library — every significant decision recorded
+- Academic paper: *"The Personal Enterprise: A Framework for AI-Augmented Life Management"*
+- Career positioning — portfolio presented as proof of Finance Transformation Architect capability
+- Architecture reviewed and confirmed as scaling-ready — productisation remains an option
 
 #### Research
 - Enterprise architecture patterns at scale
 - Open source ERP ecosystem analysis
-- Academic paper: *"The Personal Enterprise: A Framework for AI-Augmented Life Management"*
+- Academic publishing in knowledge management and personal informatics
 
 #### Key Milestone
-> LES is a product. You are an architect. The portfolio speaks for itself.
+> The system works. The expertise is proven. The portfolio speaks without explanation. The option to scale exists and the architecture supports it.
 
 ---
 
-## 6. Technology Stack — Proposed Options
+## 6. Repository Architecture
+
+| Repository | Type | Purpose | Visibility |
+|---|---|---|---|
+| `LES-Master` | Meta | Master documentation, architecture, context, roadmap | Public |
+| `LES-Core` | Shared | Shared libraries, data models, common utilities | Private |
+| `LES-Infra` | Operational | Infrastructure as Code — all Azure resources | Private |
+| `LES-API` | Operational | Central API gateway layer | Private |
+| `LES-Portal` | Operational | Front-end user interface | Private |
+| `LES-FIN` | Module | Finance & Wealth | Private |
+| `LES-EDU` | Module | Education & Knowledge | Private |
+| `LES-HLT` | Module | Health & Performance | Private |
+| `LES-PRJ` | Module | Projects & Goals | Private |
+| `LES-REL` | Module | Relationships & Network | Private |
+| `LES-OPS` | Module | Daily Operations | Private |
+| `LES-KNW` | Module | Knowledge Base | Private |
+| `LES-INT` | Module | Intelligence & Analytics | Private |
+| `LES-AGT` | Module | AI Agent Orchestration | Private |
+| `LES-SEC` | Module + Cross-cutting | Security policies, GRC, compliance frameworks, audit configurations | Private |
+
+### Repository Principles
+- Every repository follows the same folder structure convention
+- Security is a cross-cutting concern embedded in every repository
+- Repositories are made public only when content reaches a presentable standard
+- LES-Master remains public as the project's public face on GitHub
+
+---
+
+## 7. Technology Stack — Proposed Options
 
 The following represents a starting proposal based on the Azure-first principle and common enterprise patterns. **Nothing here is decided.** Each item will be discussed, understood, and confirmed by you before it is adopted.
 
@@ -309,7 +337,7 @@ The following represents a starting proposal based on the Azure-first principle 
 
 ---
 
-## 7. Certification Roadmap — Proposed, Value-Driven
+## 8. Certification Roadmap — Proposed, Value-Driven
 
 The following certifications are proposed based on relevance to each phase. **None are confirmed.** Each will be evaluated and decided upon when the relevant phase begins.
 
@@ -327,7 +355,7 @@ The following certifications are proposed based on relevance to each phase. **No
 
 ---
 
-## 8. Academic & Research Layer
+## 9. Academic & Research Layer
 
 LES is not only a technical project. It is a documented intellectual journey. The following research streams run in parallel with technical development:
 
@@ -341,13 +369,15 @@ Each research stream produces GitBook entries and LinkedIn articles.
 
 ---
 
-## 9. Version History
+## 10. Version History
 
 | Version | Date | Changes |
 |---|---|---|
 | 1.0 | May 2026 | Initial roadmap created |
 | 2.0 | May 2026 | Refined based on foundational interview. Portfolio layer defined. Certification philosophy clarified. Academic layer added. Technology stack formalised. |
 | 2.1 | May 2026 | Technology stack and certifications reframed as proposals pending student decisions. Mentor role clarified — no autonomous decisions or content creation. |
+| 2.2 | May 2026 | Repository architecture added. Multi-repository structure defined. Security confirmed as cross-cutting concern. Operational repositories separated from modules. |
+| 3.0 | May 2026 | Phase 5 renamed to Mastery, Publication & Optionality. Productisation removed as primary objective. Scaling optionality preserved in architecture. Career target confirmed as Finance Transformation Architect. Professional Goal added as primary decision filter. Full document taxonomy coding adopted. |
 
 ---
 

@@ -7,7 +7,7 @@
 
 ## WHO I AM
 
-- **Background:** Beginner. No prior IT or software development experience.
+- **Background:** Complete beginner. No prior IT or software development experience.
 - **Native language:** Dutch. All work is conducted in UK English.
 - **Learning style:** No shortcuts. Full understanding before moving forward.
 - **Tone preference:** Businesslike and professional in all documentation. Academic rigour in GitBook and research outputs.
@@ -88,11 +88,13 @@ LES is simultaneously:
 - [ ] AZ-900 study begun (Microsoft Learn)
 - [ ] GitHub Foundations study begun
 - [ ] Master architecture diagram started
-- [x] First GitBook entry published
+- [ ] First GitBook entry published
 - [ ] First LinkedIn article published: *"Why I Am Building an ERP for My Life"*
 - [x] WordPress homepage built and published
 - [x] Navigation menu confirmed and live
 - [x] Four-layer portfolio — Executive layer started
+- [ ] Infrastructure for Github
+- [ ] Infrastructure for Gitbook
 
 ---
 
@@ -118,7 +120,7 @@ LES is simultaneously:
 | 16 | Career target confirmed — Finance Transformation Architect specialising in finance systems | LES is the primary proof of work for this career trajectory. Every architectural, learning, and documentation decision is evaluated against this goal. | May 2026 |
 | 17 | Full enterprise repository architecture adopted — 13 repositories | One per module plus master, infrastructure, and portfolio. Created when content exists, not speculatively. Consistent internal structure across all repos. | May 2026 |
 | 18 | Phase 5 renamed — Mastery, Publication & Optionality | Productisation removed as primary objective. Phase 5 focuses on system completion, documentation, academic publication, and career positioning. Scaling remains an option, not a goal. | May 2026 |
-| 19 | Full document taxonomy coding adopted | Industry-standard notation. ADR prefix for decision records. Module/function code plus numeric suffix for all other documents. Scales cleanly across 13 repositories over 5 years. Signals professional familiarity with enterprise documentation practices. | May 2026 |
+| 19 | Full document taxonomy coding adopted — Option B | Industry-standard notation. ADR prefix for decision records. Module/function code plus numeric suffix for all other documents. Scales cleanly across 13 repositories over 5 years. Signals professional familiarity with enterprise documentation practices. | May 2026 |
 | 20 | Always choose the best long-term option | Short-term convenience is never the deciding factor. Every architectural, tooling, and documentation decision is evaluated against the 5-year horizon. | May 2026 |
 
 ---
@@ -127,6 +129,8 @@ LES is simultaneously:
 
 | Task | Priority | Chat Type | Status |
 |---|---|---|---|
+| Build GitHub repository structure — folders and README for LES master repo | High | LES-SETUP | Not started |
+| Build GitBook space — top-level structure, sections, and GitHub sync configured | High | LES-SETUP | Not started |
 | Create GitHub account | High | LES-SETUP | Not started |
 | Create Azure free account | High | LES-SETUP | Not started |
 | Create GitBook account | High | LES-SETUP | Not started |
@@ -293,6 +297,7 @@ You are acting as a mentor, teacher, and technical guide for this project. Your 
 - **Always recommend the best long-term option** — when presenting choices, identify and recommend the option that serves the project best over 5 years, not the one that is easiest today. The student has confirmed this as a standing instruction. Short-term convenience is never the deciding factor.
 - **Tone** — businesslike and professional at all times. Academic rigour in documentation outputs.
 - **Scope** — respect chat boundaries. LES-ROADMAP is for roadmap and master context only. Direct setup, learning, and build work to the appropriate chat type.
+- **Documentation check on every status update** — every time the student brings a status update to this chat, run a documentation check before anything else. Identify what needs to be documented, the exact taxonomy code, the GitHub location, the GitBook section, and the portfolio layer. The student writes the content. The mentor identifies the gap and the address.
 - **End of session flag** — at the close of every session, identify which portfolio layers should be updated and why, using the documentation trigger framework below. Do not write the content. Flag the trigger and the layer only.
 
 The student is a complete beginner who will become an expert. Treat every session as a step in that journey.

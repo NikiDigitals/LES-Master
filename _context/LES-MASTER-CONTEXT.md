@@ -88,21 +88,19 @@ LES is simultaneously:
 - [x] SSH key generated and added to GitHub
 - [x] All 16 repositories cloned to local machine at C:\Projects\LES\
 - [x] GitBook space created
-- [x] GitBook top-level structure built
+- [x] GitBook top-level structure built — 12 sections live
+- [x] GitBook infrastructure complete — all sections and sub-sections built
+- [x] GitHub infrastructure complete — folder structure built and pushed across all 16 repos
 - [x] LinkedIn professional presence activated
 - [x] WordPress homepage built and published
 - [x] Navigation menu confirmed and live
 - [x] Four-layer portfolio — Executive layer started
-- [ ] Founding session documents published to GitBook — infrastructure now live, ready to publish
-- [x] GitHub infrastructure defined
-- [x] GitBook infrastructure built and finalised — 12 top-level sections live
+- [x] Founding session documents published to GitBook
+- [x] Founding session documents committed to GitHub
 - [x] Documentation architecture finalised
 - [x] Master context committed to GitHub
-- [x] GitHub repository internal folder structure built across all 16 repos
 - [ ] AZ-900 study begun (Microsoft Learn)
 - [ ] GitHub Foundations study begun
-- [ ] Master architecture diagram started
-- [ ] First LinkedIn article published
 - [ ] Master architecture diagram started
 - [ ] First LinkedIn article published
 
@@ -163,7 +161,7 @@ LES is simultaneously:
 | Task | Priority | Chat Type | Status |
 |---|---|---|---|
 | Build GitBook infrastructure — section structure, naming conventions, page templates | High | LES-SETUP | ✅ Complete |
-| Commit updated master context and roadmap to LES-Master | High | LES-SETUP | Not started |
+| Commit updated master context and roadmap to LES-Master | High | LES-SETUP | ✅ Complete |
 | Begin GitHub Foundations study | High | LES-LEARN-GH | Not started |
 | LES — The Project page content | High | LES-WEBSITE-001 | In progress |
 | Portfolio page content | High | LES-WEBSITE-001 | Not started |
@@ -195,7 +193,7 @@ LES is simultaneously:
 | Homepage built and published | High | LES-WEBSITE-001 | ✅ Complete |
 | Footer built — brand, navigation, social icons | High | LES-WEBSITE-001 | ✅ Complete |
 | Six-item navigation menu built and live | High | LES-WEBSITE-001 | ✅ Complete |
-| Publish founding session documents to GitBook | High | LES-SETUP | Not started — infrastructure now live, ready to publish |
+| Publish founding session documents to GitBook | High | LES-SETUP | ✅ Complete |
 | Write ADR-000001 through ADR-000013 | High | LES-DOCS | ✅ Complete |
 | Write LES-ARCH-000001 — GitHub Infrastructure | High | LES-DOCS | ✅ Complete |
 | Write LES-GOV-000001 — Session Closing Ritual | High | LES-DOCS | ✅ Complete |

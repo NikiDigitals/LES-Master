@@ -70,8 +70,8 @@ LES is simultaneously:
 | Executive | Website | nikidigitals.com | Vision, overview, milestones | General professional |
 | Thinking | GitBook | nikidigitals.gitbook.io/les | Deep documentation, research, architecture | Technical & academic |
 | Evidence | GitHub | github.com/NikiDigitals | Code, infrastructure, version history | Developers & engineers |
-| Professional | LinkedIn Personal | linkedin.com/in/nmlangendam | Articles, findings, networking, thought leadership | Professional network |
-| Brand | LinkedIn Company | linkedin.com/company/niki-digitals | NikiDigitals company presence | Professional network |
+| Professional | LinkedIn — Personal Profile (primary) | linkedin.com/in/nmlangendam | Articles, findings, networking, thought leadership | Professional network |
+| Brand | LinkedIn — Company Page (secondary) | linkedin.com/company/niki-digitals | NikiDigitals company presence | Professional network |
 
 ---
 
@@ -131,7 +131,20 @@ NikiDigitals  (professional identity — permanent)
 - [x] Master context committed to GitHub
 - [x] Public identity architecture defined and implemented across GitHub and GitBook
 - [x] Four-layer cross-linking architecture implemented
-- [ ] WordPress site — footer links to GitBook, GitHub, LinkedIn confirmed
+- [x] Roadmap corrected to v3.5 and committed
+- [x] Project plan corrected to v2.2 and committed
+- [x] Project plan published to GitBook — Vision & Strategy
+- [x] LES-JOUR-000001 committed to GitHub and published to GitBook
+- [x] LES-JOUR-000002 committed to GitHub and published to GitBook
+- [x] GitHub README updated with correct LinkedIn URL
+- [x] Password manager configured — Bitwarden
+- [x] Azure Tenant ID stored securely in Bitwarden
+- [x] Secrets register created — LES-SEC-000001 committed to GitHub
+- [x] WordPress site — footer links to GitBook, GitHub, LinkedIn confirmed
+- [x] LES — The Project page content built
+- [x] Portfolio page content built
+- [x] About page content built
+- [x] Contact page built
 - [ ] AZ-900 study begun (Microsoft Learn)
 - [ ] GitHub Foundations study begun
 - [ ] Master architecture diagram started
@@ -150,49 +163,49 @@ NikiDigitals  (professional identity — permanent)
 | 5 | UK English for all outputs | Professional consistency across all published work. | May 2026 |
 | 6 | No shortcuts on understanding | Every layer understood before it is built. Depth is the standard. | May 2026 |
 | 7 | Multi-repository architecture adopted | Enterprise systems separate concerns. One repository per module, plus Core, Infra, API, Portal, and SEC. | May 2026 |
-| 8 | All new repositories set to private initially | Repositories made public only when content reaches a presentable standard. | May 2026 |
-| 9 | Security is a cross-cutting concern | Security is embedded in every repository. LES-SEC manages governance, risk and compliance as a functional module. | May 2026 |
-| 10 | LES-Infra, LES-API, LES-Portal separated from modules | These are deployable operational components serving all modules. They belong to no single module. | May 2026 |
-| 11 | NikiDigitals covers all projects — Finance, Systems, Technology | Brand is broader than LES. Multiple projects will live under one professional brand. | May 2026 |
-| 12 | Insights replaces Blog | Executive-level tone. Blog undersells the content. | May 2026 |
-| 13 | All repositories under NikiDigitals personal account | Single professional identity. No separate Organisation. All LES repositories sit directly under github.com/NikiDigitals. Simpler to manage. One account, one identity. | May 2026 |
-| 14 | WordPress for NikiDigitals website — initial version | Purpose of site is professional presence, not technical showcase. Development time invested in LES core architecture. Custom build preserved as future standalone project. | May 2026 |
-| 15 | LES is a portfolio flagship — architecture preserves scaling optionality | Built to production-grade standards to serve career development as Finance Transformation Architect. Productisation is not a current objective. Architecture preserves that option if the decision changes. | May 2026 |
-| 16 | Career target confirmed — Finance Transformation Architect specialising in finance systems | LES is the primary proof of work for this career trajectory. Every architectural, learning, and documentation decision is evaluated against this goal. | May 2026 |
-| 17 | Full enterprise repository architecture adopted — 13 repositories | One per module plus master, infrastructure, and portfolio. Created when content exists, not speculatively. Consistent internal structure across all repos. | May 2026 |
-| 18 | Phase 5 renamed — Mastery, Publication & Optionality | Productisation removed as primary objective. Phase 5 focuses on system completion, documentation, academic publication, and career positioning. Scaling remains an option, not a goal. | May 2026 |
-| 19 | Full document taxonomy coding adopted — Option B | Industry-standard notation. ADR prefix for decision records. Module/function code plus numeric suffix for all other documents. Scales cleanly across 13 repositories over 5 years. Signals professional familiarity with enterprise documentation practices. | May 2026 |
-| 20 | Always choose the best long-term option | Short-term convenience is never the deciding factor. Every architectural, tooling, and documentation decision is evaluated against the 5-year horizon. | May 2026 |
-| 21 | All repository names use full uppercase suffix | Naming consistency across all 15 repositories. Convention: LES-[UPPERCASE]. Established during Phase 0 repository creation. | May 2026 |
-| 22 | 15 repositories confirmed — LES-API and LES-CORE included | Complete repository set established. All created as placeholders. Content added when each module becomes active. | May 2026 |
-| 23 | All repositories private except LES master | LES is the public face. All module, operational, and infrastructure repositories remain private until content is presentable. | May 2026 |
-| 24 | One TEMPLATE.md per folder — not one master template | Removes cross-referencing at scale. Each template sits inside the folder it applies to. Scales cleanly across 15 repositories over 5 years. | May 2026 |
-| 25 | Footer three-column structure | Brand left, navigation centre, social icons right. Consistent with professional web conventions. | May 2026 |
-| 26 | GitBook entries at defined trigger points only | Not every session. Decisions, deep learning, and milestones only. Prevents dilution of documentation quality. | May 2026 |
-| 27 | Styling pass deferred to dedicated session | Content first, styling second. More efficient to style everything in one pass once all content is in place. | May 2026 |
-| 28 | Elementor Free + Astra as WordPress stack | Manual placeholders used where Pro features required. Posts widget deferred until Pro decision is made. | May 2026 |
-| 29 | LES-MENTOR established as home base chat type | Dedicated chat for reporting back, updating master context, and receiving next assigned step. Opens fresh each reporting cycle. | May 2026 |
-| 30 | Claude chats are temporary workspaces — not archives | All outputs committed to GitHub. If it is not in GitHub it did not happen. | May 2026 |
-| 31 | Session journal established as documentation habit | End of every session — update master context, commit documents, write 3–5 sentences in session journal. Ten minutes maximum. | May 2026 |
-| 32 | No additional note-taking tools at this stage | Markdown journal files in GitHub sufficient. Complexity avoided until volume warrants it. | May 2026 |
-| 33 | WordPress website scope confirmed — content only | Site purpose is professional presence. Content before design. All pages written as markdown before touching WordPress. | May 2026 |
-| 34 | GitHub and GitBook both contain documentation — different audiences | GitHub serves technical visitors — concise, factual, reference-oriented. GitBook serves a broader thinking-layer audience — narrative, contextual, polished. Same subject, different treatment. Neither replaces the other. | May 2026 |
-| 35 | GitHub folder structure updated to reflect no-doubles rule | Reader-facing documents go to GitBook. GitHub docs/ folder holds working files, templates, and drafts. | May 2026 |
-| 36 | GitHub universal folder structure confirmed with docs/ layer | docs/ folder restored with architecture, decisions, governance, research, roadmap subfolders. One TEMPLATE.md per folder. Journal at root level. | May 2026 |
-| 37 | LES-AGT is a custom-built multi-agent system — not a pre-packaged solution | Azure OpenAI Service provides the LLM engine. The agents — architecture, orchestration, context management, memory, inter-agent communication, decision logic — are designed and built from scratch as part of LES. The distinction between using an agent and building one is fundamental to the portfolio value. | May 2026 |
-| 38 | GitHub universal folder structure expanded with src/, tests/, and specs/ | src/ for application code, tests/ alongside code, specs/ for module data models and entity definitions. LES-INFRASTRUCTURE src/ structured with environments/ and modules/ for IaC files. | May 2026 |
-| 39 | GitBook Security & GRC added as dedicated top-level section | Security is a cross-cutting concern and a primary portfolio signal for Finance Transformation Architect. Deserves its own section separate from Modules. Project Governance renamed from Governance to distinguish project governance from system governance. AI Agents elevated to dedicated top-level section. Modules expanded with one sub-section per module. New top-level sections require an ADR before creation. | May 2026 |
-| 40 | Repository names confirmed — LES-Master, LES-INFRA, LES-PORT | Naming aligned to actual GitHub repository names. LES-PORTFOLIO renamed to LES-PORT. LES-INFRASTRUCTURE renamed to LES-INFRA. Master repository confirmed as LES-Master. All documentation updated to reflect confirmed names. | May 2026 |
-| 41 | LES-PORT created as distinct repository | NikiDigitals portfolio website layer — documentation, content drafts, and future custom build. Separated from LES-PORTAL which does not exist. 16th repository in the set. | May 2026 |
-| 42 | src/tests/ kept in LES-Master for structural consistency | No application code in LES-Master but src/tests/ retained. Consistency across all 16 repositories outweighs the minor redundancy. | May 2026 |
-| 43 | GitBook structure finalised at 12 top-level sections | Section 12 scoped as Articles & Publications to accommodate LinkedIn articles, website insights, academic papers, and external publications. All founding documents assigned a permanent home. | May 2026 |
-| 44 | West Europe confirmed as primary Azure region | Geographic proximity. Data residency within EU. Compliance alignment with GDPR. | May 2026 |
-| 45 | Cost governance configured — €10 budget, 80% alert threshold | Free tier protections. Alert at €8 spend to prevent unexpected charges during Phase 0. | May 2026 |
-| 46 | Building in the open — confirmed as deliberate strategy | Public build creates timestamped, auditable evidence of genuine capability development. Cannot be faked or bought. Beginner starting point named publicly as a portfolio strength, not hidden. | May 2026 |
-| 47 | Demo environment on separate Azure subscription — Phase 2 | Fully isolated from production. Synthetic persona created for safe public demonstration. Personal data never exposed in any repository or public documentation. LES-demo-data repository manages synthetic data generation. | May 2026 |
-| 48 | GitBook named Life Enterprise System — authored by NikiDigitals | GitBook is LES-exclusive content. NikiDigitals is the author attribution, not the space identity. | May 2026 |
-| 49 | GitBook landing page leads with portfolio purpose, not technical description | Long-term portfolio project framing positions LES correctly for all audiences. Technical description follows. | May 2026 |
-| 50 | Public identity architecture formalised — NikiDigitals as professional identity, LES as flagship project | Two-level hierarchy. NikiDigitals is permanent and multi-project. LES is the current flagship proof of work beneath it. Each portfolio layer speaks at the correct level of the hierarchy. | May 2026 |
+| 8 | Security is a cross-cutting concern | Security is embedded in every repository. LES-SEC manages governance, risk and compliance as a functional module. | May 2026 |
+| 9 | LES-Infra, LES-API, LES-Portal separated from modules | These are deployable operational components serving all modules. They belong to no single module. | May 2026 |
+| 10 | NikiDigitals covers all projects — Finance, Systems, Technology | Brand is broader than LES. Multiple projects will live under one professional brand. | May 2026 |
+| 11 | Insights replaces Blog | Executive-level tone. Blog undersells the content. | May 2026 |
+| 12 | All repositories under NikiDigitals personal account | Single professional identity. No separate Organisation. All LES repositories sit directly under github.com/NikiDigitals. Simpler to manage. One account, one identity. | May 2026 |
+| 13 | WordPress for NikiDigitals website — initial version | Purpose of site is professional presence, not technical showcase. Development time invested in LES core architecture. Custom build preserved as future standalone project. | May 2026 |
+| 14 | LES is a portfolio flagship — architecture preserves scaling optionality | Built to production-grade standards to serve career development as Finance Transformation Architect. Productisation is not a current objective. Architecture preserves that option if the decision changes. | May 2026 |
+| 15 | Career target confirmed — Finance Transformation Architect specialising in finance systems | LES is the primary proof of work for this career trajectory. Every architectural, learning, and documentation decision is evaluated against this goal. | May 2026 |
+| 16 | Phase 5 renamed — Mastery, Publication & Optionality | Productisation removed as primary objective. Phase 5 focuses on system completion, documentation, academic publication, and career positioning. Scaling remains an option, not a goal. | May 2026 |
+| 17 | Full document taxonomy coding adopted — Option B | Industry-standard notation. ADR prefix for decision records. Module/function code plus numeric suffix for all other documents. Scales cleanly across 16 repositories over 5 years. Signals professional familiarity with enterprise documentation practices. | May 2026 |
+| 18 | Always choose the best long-term option | Short-term convenience is never the deciding factor. Every architectural, tooling, and documentation decision is evaluated against the 5-year horizon. | May 2026 |
+| 19 | All repository names use full uppercase suffix | Naming consistency across all 16 repositories. Convention: LES-[UPPERCASE]. Established during Phase 0 repository creation. | May 2026 |
+| 20 | 16 repositories confirmed — final count | LES-API, LES-CORE, LES-PORT included. Plus NikiDigitals profile README repository. All created as placeholders. Content added when each module becomes active. This is the final confirmed repository count. | May 2026 |
+| 21 | One TEMPLATE.md per folder — not one master template | Removes cross-referencing at scale. Each template sits inside the folder it applies to. Scales cleanly across 16 repositories over 5 years. | May 2026 |
+| 22 | Footer three-column structure | Brand left, navigation centre, social icons right. Consistent with professional web conventions. | May 2026 |
+| 23 | GitBook entries at defined trigger points only | Not every session. Decisions, deep learning, and milestones only. Prevents dilution of documentation quality. | May 2026 |
+| 24 | Styling pass deferred to dedicated session | Content first, styling second. More efficient to style everything in one pass once all content is in place. | May 2026 |
+| 25 | Elementor Free + Astra as WordPress stack | Manual placeholders used where Pro features required. Posts widget deferred until Pro decision is made. | May 2026 |
+| 26 | LES-MENTOR established as home base chat type | Dedicated chat for reporting back, updating master context, and receiving next assigned step. Opens fresh each reporting cycle. | May 2026 |
+| 27 | Claude chats are temporary workspaces — not archives | All outputs committed to GitHub. If it is not in GitHub it did not happen. | May 2026 |
+| 28 | Session journal established as documentation habit | End of every session — update master context, commit documents, write 3–5 sentences in session journal. Ten minutes maximum. | May 2026 |
+| 29 | No additional note-taking tools at this stage | Markdown journal files in GitHub sufficient. Complexity avoided until volume warrants it. | May 2026 |
+| 30 | WordPress website scope confirmed — content only | Site purpose is professional presence. Content before design. All pages written as markdown before touching WordPress. | May 2026 |
+| 31 | GitHub and GitBook both contain documentation — different audiences | GitHub serves technical visitors — concise, factual, reference-oriented. GitBook serves a broader thinking-layer audience — narrative, contextual, polished. Same subject, different treatment. Neither replaces the other. | May 2026 |
+| 32 | GitHub folder structure updated to reflect no-doubles rule | Reader-facing documents go to GitBook. GitHub docs/ folder holds working files, templates, and drafts. | May 2026 |
+| 33 | GitHub universal folder structure confirmed with docs/ layer | docs/ folder restored with architecture, decisions, governance, research, roadmap subfolders. One TEMPLATE.md per folder. Journal at root level. | May 2026 |
+| 34 | LES-AGT is a custom-built multi-agent system — not a pre-packaged solution | Azure OpenAI Service provides the LLM engine. The agents — architecture, orchestration, context management, memory, inter-agent communication, decision logic — are designed and built from scratch as part of LES. The distinction between using an agent and building one is fundamental to the portfolio value. | May 2026 |
+| 35 | GitHub universal folder structure expanded with src/, tests/, and specs/ | src/ for application code, tests/ alongside code, specs/ for module data models and entity definitions. LES-INFRA src/ structured with environments/ and modules/ for IaC files. | May 2026 |
+| 36 | GitBook Security & GRC added as dedicated top-level section | Security is a cross-cutting concern and a primary portfolio signal for Finance Transformation Architect. Deserves its own section separate from Modules. Project Governance renamed from Governance to distinguish project governance from system governance. AI Agents elevated to dedicated top-level section. Modules expanded with one sub-section per module. New top-level sections require an ADR before creation. | May 2026 |
+| 37 | Repository names confirmed — LES-Master, LES-INFRA, LES-PORT | Naming aligned to actual GitHub repository names. LES-PORTFOLIO renamed to LES-PORT. LES-INFRASTRUCTURE renamed to LES-INFRA. Master repository confirmed as LES-Master. All documentation updated to reflect confirmed names. | May 2026 |
+| 38 | LES-PORT created as distinct repository | NikiDigitals portfolio website layer — documentation, content drafts, and future custom build. Separated from LES-PORTAL which does not exist. 16th repository in the set. | May 2026 |
+| 39 | src/tests/ kept in LES-Master for structural consistency | No application code in LES-Master but src/tests/ retained. Consistency across all 16 repositories outweighs the minor redundancy. | May 2026 |
+| 40 | GitBook structure finalised at 12 top-level sections | Section 12 scoped as Articles & Publications to accommodate LinkedIn articles, website insights, academic papers, and external publications. All founding documents assigned a permanent home. | May 2026 |
+| 41 | West Europe confirmed as primary Azure region | Geographic proximity. Data residency within EU. Compliance alignment with GDPR. | May 2026 |
+| 42 | Cost governance configured — €10 budget, 80% alert threshold | Free tier protections. Alert at €8 spend to prevent unexpected charges during Phase 0. | May 2026 |
+| 43 | Building in the open — confirmed as deliberate strategy | Public build creates timestamped, auditable evidence of genuine capability development. Cannot be faked or bought. Beginner starting point named publicly as a portfolio strength, not hidden. | May 2026 |
+| 44 | Demo environment on separate Azure subscription — Phase 2 | Fully isolated from production. Synthetic persona created for safe public demonstration. Personal data never exposed in any repository or public documentation. LES-demo-data repository manages synthetic data generation. | May 2026 |
+| 45 | GitBook named Life Enterprise System — authored by NikiDigitals | GitBook is LES-exclusive content. NikiDigitals is the author attribution, not the space identity. | May 2026 |
+| 46 | GitBook landing page leads with portfolio purpose, not technical description | Long-term portfolio project framing positions LES correctly for all audiences. Technical description follows. | May 2026 |
+| 47 | Public identity architecture formalised — NikiDigitals as professional identity, LES as flagship project | Two-level hierarchy. NikiDigitals is permanent and multi-project. LES is the current flagship proof of work beneath it. Each portfolio layer speaks at the correct level of the hierarchy. | May 2026 |
+| 48 | LinkedIn personal profile confirmed as primary portfolio destination | Personal profile routes professional audience to NikiDigitals and LES content. Company page exists as secondary brand presence. | May 2026 |
+| 49 | Bitwarden adopted as password manager | Open source, audited, no cost barrier, exam environment compatible. All project secrets stored in dedicated LES — Azure folder. | May 2026 |
+| 50 | One journal entry per day — consolidates all chats | A single journal entry written at the end of each day captures all sessions. Prevents duplication and maintains a clean, readable learning record. | May 2026 |
 
 ---
 
@@ -200,19 +213,14 @@ NikiDigitals  (professional identity — permanent)
 
 | Task | Priority | Chat Type | Status |
 |---|---|---|---|
-| Store Tenant ID in password manager or secure location | High | LES-SETUP | Not started |
-| Begin GitHub Foundations study | High | LES-LEARN-GH | Not started |
-| LES — The Project page content | High | LES-WEBSITE-001 | In progress |
-| Portfolio page content | High | LES-WEBSITE-001 | Not started |
-| About page content | High | LES-WEBSITE-001 | Not started |
-| Contact page content | High | LES-WEBSITE-001 | Not started |
 | Full styling pass — all pages | High | LES-WEBSITE-002 | Scheduled |
-| Confirm WordPress footer links to GitBook, GitHub, LinkedIn | High | LES-WEBSITE-001 | Not confirmed |
+| Fix WPForms field visibility | Medium | LES-WEBSITE-002 | Scheduled |
+| Fix email delivery — WP Mail SMTP | Medium | LES-WEBSITE-002 | Scheduled |
 | Update GitBook and GitHub URLs sitewide | Medium | LES-WEBSITE-002 | Not started |
+| Begin GitHub Foundations study | High | LES-LEARN-GH | Not started |
 | Register on Microsoft Learn and begin AZ-900 Module 1 | High | LES-LEARN-AZ900 | In progress — chat open |
 | Reflection exercise — cloud vs fixed infrastructure | High | LES-LEARN-AZ900 | In progress — chat open |
-| Write LES-JOUR-000002 — GitHub infrastructure session | Medium | LES-DOCS | Not started |
-| Write LES-JOUR-000003 — GitBook infrastructure session | Medium | LES-DOCS | Not started |
+| Write LES-JOUR-000003 — GitHub infrastructure session | Medium | LES-DOCS | Not started |
 | Write LES-JOUR-000004 — Public identity architecture session | Medium | LES-DOCS | Not started |
 | Write ADR-000014 — GitHub and GitBook audiences | Medium | LES-DOCS | Not started |
 | Write ADR-000015 — LES-PORT repository decision | Medium | LES-DOCS | Not started |
@@ -562,7 +570,27 @@ Both GitHub and GitBook contain documentation. They are not copies of each other
 
 ---
 
-## HOW TO START A NEW LES-MENTOR CHAT
+## END OF DAY RITUAL
+
+**Trigger:** When the student says "finalise day" in LES-MENTOR.
+
+**Protocol:**
+1. Student reports all completed tasks across all chats that day
+2. Master context updated — tasks ticked, decisions added, checklist updated
+3. One consolidated journal entry written — covers all sessions that day
+4. Decision made together — does today's content warrant a GitBook version?
+5. All files committed to GitHub
+
+**Journal entry format:**
+- One entry per day regardless of how many chats were opened
+- Document code: next available LES-JOUR-000[NNN]
+- Covers all sessions, decisions, and learnings from the full day
+- GitBook version only if the content is substantial, standalone, and reader-facing
+
+**Commit message format:**
+`LES-MENTOR [Day] — End of day — [brief summary]`
+
+---
 
 1. Open a new Claude chat
 2. Title it: `LES-MENTOR — Week [N] — [Month Year]`
@@ -593,7 +621,7 @@ You are acting as a mentor, teacher, and technical guide for this project. Your 
 - **Tone** — businesslike and professional at all times. Academic rigour in documentation outputs.
 - **Scope** — respect chat boundaries. Direct setup, learning, and build work to the appropriate chat type.
 - **Documentation check on every status update** — every time the student brings a status update, run a documentation check before anything else.
-- **Session closing ritual** — at the end of every session the student should: update master context, commit all documents to GitHub, write 3–5 sentences in the session journal. Ten minutes maximum.
+- **Session closing ritual** — at the end of every day the student should: update master context, commit all documents to GitHub, write one consolidated journal entry covering all sessions that day. Ten minutes maximum.
 
 The student is a complete beginner who will become an expert. Treat every session as a step in that journey.
 

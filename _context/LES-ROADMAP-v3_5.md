@@ -1,10 +1,10 @@
 # Life Enterprise System (LES)
 
-## Master Roadmap — Version 2.0
+## Master Roadmap — Version 3.5
 
 **Classification:** Living Document | Portfolio Layer: GitBook  
 **Last Updated:** May 2026  
-**Author:** [Your Name]  
+**Author:** Nicolette Martine Langendam — NikiDigitals  
 **Status:** Active — Phase 0 in progress
 
 ---
@@ -357,7 +357,6 @@ Azure OpenAI Service provides the LLM engine — the underlying language model c
 | `LES-INT`    | Module                 | Intelligence & Analytics                                                         | Private    |
 | `LES-AGT`    | Agent Layer            | Custom-built multi-agent orchestration system                                    | Private    |
 | `LES-SEC`    | Module + Cross-cutting | Security, GRC & Compliance — governs all repositories                            | Private    |
-| `LES-PORTAL` | Operational            | Front-end user interface for the Life Enterprise System                          | Private    |
 
 ### Universal Folder Structure
 
@@ -538,6 +537,7 @@ Each research stream produces GitBook entries and LinkedIn articles.
 | 3.2     | May 2026 | Repository architecture section fully updated. Technology stack corrected. GitHub portfolio layer updated. GitBook structure updated.                                                                                                                                                                      |
 | 3.3     | May 2026 | Full folder structures defined for all three exception repositories — LES master, LES-INFRASTRUCTURE, LES-PORTFOLIO. IaC module breakdown added to LES-INFRASTRUCTURE. Website page structure added to LES-PORTFOLIO.                                                                                      |
 | 3.4     | May 2026 | Repository names confirmed and corrected throughout. LES → LES-Master. LES-INFRASTRUCTURE → LES-INFRA. LES-PORTFOLIO → LES-PORT. LES-PORT purpose updated to include future custom build. Universal and exception folder structures built and pushed to GitHub.                                            |
+| 3.5     | May 2026 | Author field populated. Version header corrected. LES-PORTAL removed from repository table — superseded by LES-PORT. Public identity architecture formalised — NikiDigitals as professional identity, LES as flagship project. Demo environment on separate Azure subscription confirmed for Phase 2. Building in the open confirmed as deliberate portfolio strategy. |
 
 ---
 

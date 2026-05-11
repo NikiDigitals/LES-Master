@@ -7,6 +7,7 @@
 
 ## WHO I AM
 
+- **Full name:** Nicolette Martine Langendam. Professional brand: NikiDigitals.
 - **Background:** Complete beginner. No prior IT or software development experience.
 - **Native language:** Dutch. All work is conducted in UK English.
 - **Learning style:** No shortcuts. Full understanding before moving forward.
@@ -16,8 +17,8 @@
 
 ## PROFESSIONAL GOAL
 
-**Target role:** Finance Transformation Architect
-**Specialisation:** Finance systems — broad, complex, and complete
+**Target role:** Finance Transformation Architect  
+**Specialisation:** Finance systems — broad, complex, and complete  
 **Timeline:** Developing alongside the LES project over 4–5 years
 
 This goal is the primary filter for every decision in LES. The question applied to every architectural, learning, and documentation decision is:
@@ -64,12 +65,37 @@ LES is simultaneously:
 
 ## THE PORTFOLIO LAYERS
 
-| Layer | Platform | Purpose | Audience |
-|---|---|---|---|
-| Executive | Website | Vision, overview, milestones | General professional |
-| Thinking | GitBook | Deep documentation, research, architecture | Technical & academic |
-| Evidence | GitHub | Code, infrastructure, version history | Developers & engineers |
-| Professional | LinkedIn | Articles, findings, networking, thought leadership | Professional network |
+| Layer | Platform | URL | Purpose | Audience |
+|---|---|---|---|---|
+| Executive | Website | nikidigitals.com | Vision, overview, milestones | General professional |
+| Thinking | GitBook | nikidigitals.gitbook.io/les | Deep documentation, research, architecture | Technical & academic |
+| Evidence | GitHub | github.com/NikiDigitals | Code, infrastructure, version history | Developers & engineers |
+| Professional | LinkedIn Personal | linkedin.com/in/nmlangendam | Articles, findings, networking, thought leadership | Professional network |
+| Brand | LinkedIn Company | linkedin.com/company/niki-digitals | NikiDigitals company presence | Professional network |
+
+---
+
+## PUBLIC IDENTITY ARCHITECTURE
+
+**NikiDigitals** — the professional identity. Permanent. Will contain multiple projects over time.  
+**LES** — the flagship project under NikiDigitals. The primary current proof of work.
+
+**Hierarchy:**
+```
+NikiDigitals  (professional identity — permanent)
+    └── LES   (flagship project — ongoing)
+    └── [future projects]
+```
+
+**Layer identity rules:**
+- Website speaks for NikiDigitals. LES features as proof of work.
+- GitBook speaks for LES. NikiDigitals is the author attribution.
+- GitHub profile speaks for NikiDigitals. Repositories speak for LES.
+- LinkedIn speaks for NikiDigitals. LES is the primary current topic.
+
+**Cross-layer linking rule:** Every layer must have at least one exit point to each of the other three layers.
+
+**Demo environment decision:** A fully isolated demo environment will be built on a separate Azure subscription in Phase 2. A synthetic persona manages all public demonstration data. Production data is never exposed. LES-demo-data repository manages synthetic data generation. Personal data stays out of all repositories and public documentation permanently.
 
 ---
 
@@ -81,15 +107,19 @@ LES is simultaneously:
 
 ### Phase 0 Checklist
 - [x] Azure free account created
+- [x] West Europe confirmed as primary Azure region
+- [x] Cost governance configured — €10 budget, 80% alert threshold
 - [x] GitHub profile professionalised
+- [x] GitHub profile README created and live — full NikiDigitals identity with portfolio table
 - [x] LES-Master repository created
 - [x] All 16 repositories created as placeholders
 - [x] Git installed and configured on local machine
 - [x] SSH key generated and added to GitHub
 - [x] All 16 repositories cloned to local machine at C:\Projects\LES\
-- [x] GitBook space created
+- [x] GitBook space created — named Life Enterprise System
 - [x] GitBook top-level structure built — 12 sections live
 - [x] GitBook infrastructure complete — all sections and sub-sections built
+- [x] GitBook landing page written and published — introduction, about, portfolio table, NikiDigitals attribution
 - [x] GitHub infrastructure complete — folder structure built and pushed across all 16 repos
 - [x] LinkedIn professional presence activated
 - [x] WordPress homepage built and published
@@ -99,6 +129,9 @@ LES is simultaneously:
 - [x] Founding session documents committed to GitHub
 - [x] Documentation architecture finalised
 - [x] Master context committed to GitHub
+- [x] Public identity architecture defined and implemented across GitHub and GitBook
+- [x] Four-layer cross-linking architecture implemented
+- [ ] WordPress site — footer links to GitBook, GitHub, LinkedIn confirmed
 - [ ] AZ-900 study begun (Microsoft Learn)
 - [ ] GitHub Foundations study begun
 - [ ] Master architecture diagram started
@@ -153,6 +186,13 @@ LES is simultaneously:
 | 41 | LES-PORT created as distinct repository | NikiDigitals portfolio website layer — documentation, content drafts, and future custom build. Separated from LES-PORTAL which does not exist. 16th repository in the set. | May 2026 |
 | 42 | src/tests/ kept in LES-Master for structural consistency | No application code in LES-Master but src/tests/ retained. Consistency across all 16 repositories outweighs the minor redundancy. | May 2026 |
 | 43 | GitBook structure finalised at 12 top-level sections | Section 12 scoped as Articles & Publications to accommodate LinkedIn articles, website insights, academic papers, and external publications. All founding documents assigned a permanent home. | May 2026 |
+| 44 | West Europe confirmed as primary Azure region | Geographic proximity. Data residency within EU. Compliance alignment with GDPR. | May 2026 |
+| 45 | Cost governance configured — €10 budget, 80% alert threshold | Free tier protections. Alert at €8 spend to prevent unexpected charges during Phase 0. | May 2026 |
+| 46 | Building in the open — confirmed as deliberate strategy | Public build creates timestamped, auditable evidence of genuine capability development. Cannot be faked or bought. Beginner starting point named publicly as a portfolio strength, not hidden. | May 2026 |
+| 47 | Demo environment on separate Azure subscription — Phase 2 | Fully isolated from production. Synthetic persona created for safe public demonstration. Personal data never exposed in any repository or public documentation. LES-demo-data repository manages synthetic data generation. | May 2026 |
+| 48 | GitBook named Life Enterprise System — authored by NikiDigitals | GitBook is LES-exclusive content. NikiDigitals is the author attribution, not the space identity. | May 2026 |
+| 49 | GitBook landing page leads with portfolio purpose, not technical description | Long-term portfolio project framing positions LES correctly for all audiences. Technical description follows. | May 2026 |
+| 50 | Public identity architecture formalised — NikiDigitals as professional identity, LES as flagship project | Two-level hierarchy. NikiDigitals is permanent and multi-project. LES is the current flagship proof of work beneath it. Each portfolio layer speaks at the correct level of the hierarchy. | May 2026 |
 
 ---
 
@@ -160,80 +200,54 @@ LES is simultaneously:
 
 | Task | Priority | Chat Type | Status |
 |---|---|---|---|
-| Build GitBook infrastructure — section structure, naming conventions, page templates | High | LES-SETUP | ✅ Complete |
-| Commit updated master context and roadmap to LES-Master | High | LES-SETUP | ✅ Complete |
+| Store Tenant ID in password manager or secure location | High | LES-SETUP | Not started |
 | Begin GitHub Foundations study | High | LES-LEARN-GH | Not started |
 | LES — The Project page content | High | LES-WEBSITE-001 | In progress |
 | Portfolio page content | High | LES-WEBSITE-001 | Not started |
 | About page content | High | LES-WEBSITE-001 | Not started |
 | Contact page content | High | LES-WEBSITE-001 | Not started |
-| Full styling pass — all pages | High | LES-WEBSITE-002 | Scheduled — weekend |
+| Full styling pass — all pages | High | LES-WEBSITE-002 | Scheduled |
+| Confirm WordPress footer links to GitBook, GitHub, LinkedIn | High | LES-WEBSITE-001 | Not confirmed |
 | Update GitBook and GitHub URLs sitewide | Medium | LES-WEBSITE-002 | Not started |
 | Register on Microsoft Learn and begin AZ-900 Module 1 | High | LES-LEARN-AZ900 | In progress — chat open |
 | Reflection exercise — cloud vs fixed infrastructure | High | LES-LEARN-AZ900 | In progress — chat open |
-| Write LES-JOUR-000003 — GitBook infrastructure session | Medium | LES-DOCS | Not started |
-| Write ADR-000016 — Articles & Publications section | Medium | LES-DOCS | Not started |
 | Write LES-JOUR-000002 — GitHub infrastructure session | Medium | LES-DOCS | Not started |
-| Write ADR-000015 — LES-PORT repository decision | Medium | LES-DOCS | Not started |
+| Write LES-JOUR-000003 — GitBook infrastructure session | Medium | LES-DOCS | Not started |
+| Write LES-JOUR-000004 — Public identity architecture session | Medium | LES-DOCS | Not started |
 | Write ADR-000014 — GitHub and GitBook audiences | Medium | LES-DOCS | Not started |
+| Write ADR-000015 — LES-PORT repository decision | Medium | LES-DOCS | Not started |
+| Write ADR-000016 — Articles & Publications section | Medium | LES-DOCS | Not started |
+| Write ADR-000017 — Demo environment and synthetic persona | Medium | LES-DOCS | Not started |
 | First GitBook entries — Git and repository structure rationale | Medium | LES-DOCS | Not started |
 | Draft LinkedIn article 1 | Medium | LES-DOCS | Not started |
 | Create master architecture diagram | Medium | LES-BUILD | Not started |
-| Build internal folder structure across all 16 repositories | High | LES-SETUP | ✅ Complete |
-| Create standard module repo template | Medium | LES-SETUP | ✅ Complete |
-| Build GitHub repository structure — LES-Master | High | LES-SETUP | ✅ Complete |
-| Build GitBook space — connected and sections live | High | LES-SETUP | ✅ Complete |
-| Build GitHub infrastructure — defined and pushed | High | LES-SETUP | ✅ Complete |
-| Create GitHub account — NikiDigitals | High | LES-SETUP | ✅ Complete |
-| Create Azure free account | High | LES-SETUP | ✅ Complete |
-| Create GitBook account | High | LES-SETUP | ✅ Complete |
-| Professionalise GitHub profile | High | LES-SETUP | ✅ Complete |
-| Create WordPress site on chosen host | High | LES-SETUP | ✅ Complete |
-| Choose and apply WordPress theme | Medium | LES-SETUP | ✅ Complete |
-| Homepage built and published | High | LES-WEBSITE-001 | ✅ Complete |
-| Footer built — brand, navigation, social icons | High | LES-WEBSITE-001 | ✅ Complete |
-| Six-item navigation menu built and live | High | LES-WEBSITE-001 | ✅ Complete |
-| Publish founding session documents to GitBook | High | LES-SETUP | ✅ Complete |
-| Write ADR-000001 through ADR-000013 | High | LES-DOCS | ✅ Complete |
-| Write LES-ARCH-000001 — GitHub Infrastructure | High | LES-DOCS | ✅ Complete |
-| Write LES-GOV-000001 — Session Closing Ritual | High | LES-DOCS | ✅ Complete |
-| Write LES-JOUR-000001 — Founding Session | High | LES-DOCS | ✅ Complete |
-| Build GitHub repository structure — LES-Master | High | LES-SETUP | ✅ Complete |
-| Build GitBook infrastructure — top-level structure and sections | High | LES-SETUP | ✅ Complete |
-| Build GitHub infrastructure — defined and pushed | High | LES-SETUP | ✅ Complete |
-| Build GitBook space — connected and sections live | High | LES-SETUP | ✅ Complete |
-| Create GitHub account — NikiDigitals | High | LES-SETUP | ✅ Complete |
-| Create Azure free account | High | LES-SETUP | ✅ Complete |
-| Create GitBook account | High | LES-SETUP | ✅ Complete |
-| Professionalise GitHub profile | High | LES-SETUP | ✅ Complete |
-| Create WordPress site on chosen host | High | LES-SETUP | ✅ Complete |
-| Choose and apply WordPress theme | Medium | LES-SETUP | ✅ Complete |
-| All 16 repositories created | High | LES-SETUP | ✅ Complete |
-| Build internal folder structure across all 16 repositories | High | LES-SETUP | ✅ Complete |
-| Create standard module repo template | Medium | LES-SETUP | ✅ Complete |
+| Synthetic persona design — demo environment | Medium | LES-BUILD | Phase 1 prep |
 
 ---
 
 ## OPEN SESSIONS — CURRENT STATUS
 
 ### LES-LEARN-AZ900
-**Status:** Chat open — not yet started by student
-**Where it left off:** Session 1 covered cloud concepts including IaaS, PaaS, SaaS service models. Student was asked which model felt most intuitive and which least clear — answer to be brought to Session 2.
+**Status:** Chat open — in progress  
+**Where it left off:** Session 1 covered cloud concepts including IaaS, PaaS, SaaS service models. Student was asked which model felt most intuitive and which least clear — answer to be brought to Session 2.  
 **Homework assigned:**
 - Register on Microsoft Learn and complete AZ-900 Module 1: Describe cloud concepts (~45–60 min)
 - Written reflection: Think of a system encountered in life that was slow, expensive, or fragile due to fixed physical infrastructure. How might cloud computing have changed it?
+
 **Session 2 plan:** Azure geography — regions, availability zones, global infrastructure structure. First GitBook academic entry on cloud fundamentals.
 
 ### LES-WEBSITE-001
-**Status:** Chat open — in progress
-**Where it left off:** Homepage, footer, and navigation complete. LES — The Project page is next.
+**Status:** Chat open — in progress  
+**Where it left off:** Homepage, footer, and navigation complete. LES — The Project page is next.  
 **Page order agreed:**
 1. LES — The Project ← currently in progress
 2. Portfolio
 3. About
 4. Contact
-**Styling pass:** Dedicated session LES-WEBSITE-002 — scheduled for weekend. All pages styled in one pass.
-**Technical stack:** Astra theme + Elementor Free. Posts widget deferred — requires Elementor Pro.
+
+**Styling pass:** Dedicated session LES-WEBSITE-002. All pages styled in one pass.  
+**Technical stack:** Astra theme + Elementor Free. Posts widget deferred — requires Elementor Pro.  
+**Outstanding:** Footer links to GitBook, GitHub, LinkedIn not yet confirmed — check in next website session.
 
 ---
 
@@ -247,6 +261,7 @@ LES is simultaneously:
 **Repository structure:**
 ```
 github.com/NikiDigitals
+├── NikiDigitals         ← GitHub profile README repository (public)
 ├── LES-Master           ← Master: docs, architecture, governance, decisions, research, journal
 ├── LES-INFRA            ← Azure IaC, all environments
 ├── LES-PORT             ← NikiDigitals website documentation, content, future custom build
@@ -265,16 +280,11 @@ github.com/NikiDigitals
 ```
 
 **Visibility:**
+- `NikiDigitals` — Public. GitHub profile README.
 - `LES-Master` — Public. The project's public face on GitHub.
 - All other repositories — Private until content reaches a presentable standard.
 
 **Repository creation rule:** Created when content exists — never speculatively.
-
-**Repository principles:**
-- Every repository follows the same internal folder structure convention
-- Security is a cross-cutting concern embedded in every repository
-- Repositories are made public only when content reaches a presentable standard
-- LES master repository remains public as the project's public face on GitHub
 
 ---
 
@@ -320,7 +330,7 @@ LES-Master/
 ├── README.md
 ├── _context/                  ← Internal only — never published
 │   └── LES-MASTER-CONTEXT.md
-├── src/                       ← No application code — kept for structural consistency
+├── src/
 │   └── tests/
 ├── docs/
 │   ├── architecture/
@@ -395,6 +405,8 @@ LES-PORT/
 │       └── TEMPLATE.md
 ├── src/                       ← Future custom website code
 │   └── tests/
+```
+
 ### Template Convention
 - One `TEMPLATE.md` per folder — sits inside the folder it applies to
 - Templates are scaffolding — never published to GitBook
@@ -434,15 +446,20 @@ LES-PORT/
 
 ## GITBOOK INFRASTRUCTURE DEFINITION
 
+**URL:** https://nikidigitals.gitbook.io/les  
+**Space name:** Life Enterprise System  
+**Author attribution:** NikiDigitals (nikidigitals.com)
+
 ### What GitBook Holds
 All reader-facing documents. Nothing internal. Nothing in draft.
 
 ### Top-Level Structure
 ```
-├── Start Here                 ← Project introduction, how to navigate
-├── Vision & Strategy          ← LES-ROAD-000[NNN] — roadmaps, vision
-├── Architecture               ← LES-ARCH-000[NNN] — system architecture
-├── Modules                    ← One sub-section per module
+├── 00 — Introduction          ← Landing page, how to navigate, document taxonomy
+├── 01 — Vision & Strategy     ← LES-ROAD-000[NNN] — roadmaps, vision
+├── 02 — Project Governance    ← Project governance — rituals, standards, decisions
+├── 03 — Architecture          ← LES-ARCH-000[NNN] — system architecture
+├── 04 — Modules               ← One sub-section per module
 │   ├── LES-FIN — Finance & Wealth
 │   ├── LES-EDU — Education & Knowledge
 │   ├── LES-PRJ — Projects & Goals
@@ -460,34 +477,17 @@ All reader-facing documents. Nothing internal. Nothing in draft.
 │   ├── Governance Framework
 │   ├── Risk & Compliance
 │   └── Audit & Monitoring
-├── Project Governance         ← Project governance — rituals, standards, decisions
 ├── Decision Log               ← ADR-000[NNN] — all architectural decisions
 ├── Research                   ← LES-RES-000[NNN] — academic and field research
 ├── The Journey                ← LES-JOUR-000[NNN] — learning journal
 ├── Reference                  ← Taxonomy, conventions, glossary
-└── Articles & Publications    ← LinkedIn articles, website insights, academic papers, external publications
+└── Articles & Publications    ← LinkedIn articles, website insights, academic papers
 ```
 
 ### Expansion Rules
 - **New module added** — create a new sub-section under Modules. Never add a module as a top-level section.
 - **New agent added** — add under AI Agents → Department Agents. Never at top level.
-- **New security framework** — add under Security & GRC → relevant sub-section.
-- **New project governance document** — add under Project Governance.
-- **New top-level section** — requires an ADR before it is created. Top-level sections are architectural decisions.
-
-### Document Routing
-| Code | GitBook Section |
-|---|---|
-| `ADR-000[NNN]` | Decision Log |
-| `LES-ARCH-000[NNN]` | Architecture |
-| `LES-DIAG-000[NNN]` | Embedded within relevant page |
-| `LES-ROAD-000[NNN]` | Vision & Strategy |
-| `LES-[MOD]-000[NNN]` | Modules → relevant module sub-section |
-| `LES-AGT-000[NNN]` | AI Agents |
-| `LES-SEC-000[NNN]` | Security & GRC |
-| `LES-GOV-000[NNN]` | Project Governance |
-| `LES-RES-000[NNN]` | Research |
-| `LES-JOUR-000[NNN]` | The Journey |
+- **New top-level section** — requires an ADR before it is created.
 
 ### GitBook Publishing Standard
 A document is published to GitBook only when it meets all three criteria:
@@ -538,14 +538,16 @@ Both GitHub and GitBook contain documentation. They are not copies of each other
 | `LES-JOUR-000[NNN]` | Learning Journal | `journal/` | The Journey |
 | `LES-PUB-000[NNN]` | Articles & Publications | `docs/publications/` | Articles & Publications |
 
+**Chat codes:**
+
 | Chat Code | Purpose |
 |---|---|
-| `LES-MENTOR` | Home base — report back, update master context, receive next assigned step. Opens fresh each reporting cycle. **This chat.** |
+| `LES-MENTOR` | Home base — report back, update master context, receive next assigned step |
 | `LES-ROADMAP` | Master planning, phase reviews, roadmap updates |
 | `LES-SETUP` | Account creation, platform configuration, first-time setup steps |
 | `LES-LEARN-[topic]` | Deep learning sessions — e.g. LES-LEARN-AZ900 |
 | `LES-BUILD-[module]` | Building sessions — e.g. LES-BUILD-FIN |
-| `LES-WEBSITE-[number]` | Website build and content sessions — e.g. LES-WEBSITE-002 |
+| `LES-WEBSITE-[number]` | Website build and content sessions |
 | `LES-DOCS` | GitBook and LinkedIn content creation |
 | `LES-RESEARCH` | Academic research sessions |
 | `LES-REVIEW` | Progress reviews, retrospectives |
@@ -582,16 +584,16 @@ Both GitHub and GitBook contain documentation. They are not copies of each other
 You are acting as a mentor, teacher, and technical guide for this project. Your role is:
 
 - **Teach** with depth and rigour. No shortcuts. Explain the why, not just the what.
-- **Assume nothing** — the student is an absolute beginner. Comfortable with computers and installing software, but has no development, cloud, or technical background. Every term must be explained before it is used. Every step must be written out fully.
+- **Assume nothing** — the student is an absolute beginner. Every term must be explained before it is used. Every step must be written out fully.
 - **Challenge** the student with questions that deepen understanding.
-- **Never decide on behalf of the student** — present options, explain trade-offs, provide examples. The student makes every decision. Do not assume a direction, a technology choice, a structure, or a tone without explicit instruction.
-- **Never produce portfolio content autonomously** — GitBook entries, LinkedIn articles, and website content are only drafted when explicitly requested. When asked, provide examples and suggestions, not finished published output. The student owns the voice.
+- **Never decide on behalf of the student** — present options, explain trade-offs, provide examples. The student makes every decision.
+- **Never produce portfolio content autonomously** — GitBook entries, LinkedIn articles, and website content are only drafted when explicitly requested.
 - **Build alongside** — when building, present the options and reasoning. The student decides what gets built and how.
-- **Always recommend the best long-term option** — when presenting choices, identify and recommend the option that serves the project best over 5 years, not the one that is easiest today. The student has confirmed this as a standing instruction. Short-term convenience is never the deciding factor.
+- **Always recommend the best long-term option** — short-term convenience is never the deciding factor.
 - **Tone** — businesslike and professional at all times. Academic rigour in documentation outputs.
-- **Scope** — respect chat boundaries. LES-ROADMAP is for roadmap and master context only. Direct setup, learning, and build work to the appropriate chat type.
-- **Documentation check on every status update** — every time the student brings a status update to this chat, run a documentation check before anything else. Identify what needs to be documented, the exact taxonomy code, the GitHub location, the GitBook section, and the portfolio layer. The student writes the content. The mentor identifies the gap and the address.
-- **Session closing ritual** — at the end of every session the student should: update master context, commit all documents to GitHub, write 3–5 sentences in the session journal. Ten minutes maximum. Mentor reminds the student of this at the end of every session.
+- **Scope** — respect chat boundaries. Direct setup, learning, and build work to the appropriate chat type.
+- **Documentation check on every status update** — every time the student brings a status update, run a documentation check before anything else.
+- **Session closing ritual** — at the end of every session the student should: update master context, commit all documents to GitHub, write 3–5 sentences in the session journal. Ten minutes maximum.
 
 The student is a complete beginner who will become an expert. Treat every session as a step in that journey.
 
@@ -607,12 +609,10 @@ Last updated: May 2026
 
 ## DOCUMENTATION TRIGGER FRAMEWORK
 
-At the end of every session, the mentor flags which portfolio layers should be updated based on what occurred. The student writes the content. The mentor does not.
-
 | Trigger | GitHub | GitBook | Website | LinkedIn |
 |---|---|---|---|---|
-| A decision made about architecture or direction | Log in context doc | Write reasoning and trade-offs | No | Possibly — if broader insight exists |
-| A concept learned and understood | No | Write learning note or reflection | No | Possibly — if professional insight exists |
+| A decision made about architecture or direction | Log in context doc | Write reasoning and trade-offs | No | Possibly |
+| A concept learned and understood | No | Write learning note or reflection | No | Possibly |
 | A platform or tool set up | Commit config or README | Document what it is and why | No | No |
 | A module or feature built | Commit the code | Document design and decisions | No | No |
 | A phase completed | Tag the release | Write phase retrospective | Update milestones | Yes |
@@ -624,4 +624,5 @@ At the end of every session, the mentor flags which portfolio layers should be u
 
 ---
 
-*Update this document after every session that produces a decision, completed task, or architectural change.*
+*Update this document after every session that produces a decision, completed task, or architectural change.*  
+*Last updated: May 2026 — LES-MENTOR session — Public identity architecture*

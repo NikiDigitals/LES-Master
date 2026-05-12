@@ -556,8 +556,8 @@ The student is a complete beginner who will become an expert. Treat every sessio
 
 ## ROADMAP DOCUMENT REFERENCE
 
-Full roadmap: `LES-ROAD-001-Master-Roadmap-v3.6.md`  
-Current version: 3.6  
+Full roadmap: `LES-ROAD-001-Master-Roadmap-v3.7.md`  
+Current version: 3.7  
 Last updated: May 2026
 
 ---

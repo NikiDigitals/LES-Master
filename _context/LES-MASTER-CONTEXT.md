@@ -303,6 +303,8 @@ GitBook: Decision Log section
 | 58 | WP Mail SMTP configured — mail.site.eu, contact@nikidigitals.com | May 2026 |
 | 59 | About page leads with professional identity — LES as current flagship | May 2026 |
 | 60 | Experience section added to About page — six roles confirmed | May 2026 |
+| 61 | LES-KNW identified as future native documentation database | May 2026 |
+| 62 | Diagramming standards adopted — C4, BPMN 2.0, ERD, Azure icons | May 2026 |
 
 ---
 

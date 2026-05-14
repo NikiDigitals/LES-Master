@@ -71,6 +71,17 @@ This document is the master index of all architectural, strategic, and operation
 | 49 | ADR-000049 | Bitwarden adopted as password manager | May 2026 |
 | 50 | ADR-000050 | One journal entry per day — consolidates all chats | May 2026 |
 | 51 | ADR-000051 | LES-DASH established as a dedicated repository | May 2026 |
+| 52 | ADR-000052 | Brand colour system defined — extracted from NikiDigitals logo | May 2026 |
+| 53 | ADR-000053 | Typography confirmed — Syne Bold headings, DM Sans body | May 2026 |
+| 54 | ADR-000054 | LES brand lockup — text-based, Option A — no separate mark | May 2026 |
+| 55 | ADR-000055 | Dark bookend page pattern — Navy Night hero + CTA close | May 2026 |
+| 56 | ADR-000056 | Portfolio page — three-button card template established | May 2026 |
+| 57 | ADR-000057 | Contact LinkedIn buttons — personal profile + NikiDigitals company page | May 2026 |
+| 58 | ADR-000058 | WP Mail SMTP configured — mail.site.eu, contact@nikidigitals.com | May 2026 |
+| 59 | ADR-000059 | About page leads with professional identity — LES as current flagship | May 2026 |
+| 60 | ADR-000060 | Experience section added to About page — six roles confirmed | May 2026 |
+| 61 | ADR-000061 | LES-KNW identified as future native documentation database — GitHub and GitBook serve Phase 0–2, LES-KNW absorbs from Phase 3 | May 2026 |
+| 62 | ADR-000062 | Diagramming standards adopted — C4 Model for system architecture, BPMN 2.0 for process flows, ERD for data models, Azure icons for infrastructure. draw.io as primary tool. | May 2026 |
 
 ---
 
@@ -78,7 +89,7 @@ This document is the master index of all architectural, strategic, and operation
 
 | Status | Count |
 |---|---|
-| Decisions made — index entry exists | 51 |
+| Decisions made — index entry exists | 62 |
 | Full ADR files written | 0 |
 | Published to GitBook | 0 |
 

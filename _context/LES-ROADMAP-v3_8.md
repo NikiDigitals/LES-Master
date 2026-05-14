@@ -1,6 +1,6 @@
 # Life Enterprise System (LES)
 
-## Master Roadmap — Version 3.7
+## Master Roadmap — Version 3.8
 
 **Classification:** Living Document | Portfolio Layer: GitBook  
 **Last Updated:** May 2026  
@@ -537,7 +537,7 @@ The following represents a starting proposal based on the Azure-first principle 
 | Infrastructure as Code  | Bicep / Terraform                                  | —                                                             | To be confirmed |
 | Programming Language    | Python                                             | TypeScript (front-end phases)                                 | To be confirmed |
 | Identity & Access       | Azure Entra ID                                     | —                                                             | To be confirmed |
-| Monitoring              | Azure Monitor / Application Insights               | —                                                             | To be confirmed |
+| Diagramming             | draw.io                                            | C4 Model (architecture), BPMN 2.0 (process), ERD (data), Azure icons (infrastructure) | Confirmed       |
 
 ---
 
@@ -588,7 +588,8 @@ Each research stream produces GitBook entries and LinkedIn articles.
 | 3.4     | May 2026 | Repository names confirmed and corrected throughout. LES → LES-Master. LES-INFRASTRUCTURE → LES-INFRA. LES-PORTFOLIO → LES-PORT. LES-PORT purpose updated to include future custom build. Universal and exception folder structures built and pushed to GitHub.                                            |
 | 3.5     | May 2026 | Author field populated. Version header corrected. LES-PORTAL removed from repository table — superseded by LES-PORT. Public identity architecture formalised — NikiDigitals as professional identity, LES as flagship project. Demo environment on separate Azure subscription confirmed for Phase 2. Building in the open confirmed as deliberate portfolio strategy. |
 | 3.6     | May 2026 | LES-DASH added as dedicated repository — Power BI Phase 1–2, custom React from Phase 3. LES-demo-data added as dedicated repository for synthetic data generation. Repository count updated to 18. Decisions index separated into standalone document — LES-DECISIONS-INDEX.md. |
-| 3.7     | May 2026 | Founding conviction narrative added to Vision Statement. Security by design and Finance domain integrity added to Foundational Principles. Professional Identity section added to Portfolio Architecture — brand system, website status, page inventory. Phase 0 Platform Setup and Build Deliverables updated to reflect actual completion status. Professional Experience section added — six roles confirmed since October 2025. |
+| 3.7     | May 2026 | Founding conviction narrative added to Vision Statement. Security by design and Finance domain integrity added to Foundational Principles. Professional Identity section added to Portfolio Architecture. Phase 0 status updated to reflect completion. Professional Experience section added — six roles confirmed. |
+| 3.8     | May 2026 | Diagramming standards added to technology stack — C4, BPMN 2.0, ERD, Azure icons, draw.io confirmed. ADR and journal cadence formalised. Documentation standards updated across plan and roadmap. |
 
 ---
 

@@ -1,11 +1,11 @@
 # Life Enterprise System (LES)
-## Project Plan — Version 2.2
+## Project Plan — Version 2.3
 
 **Author:** Nicolette Martine Langendam — NikiDigitals
 **Date:** May 2026
 **Status:** Active — Phase 0 in progress
 **Classification:** Portfolio Document | Public
-**Document Code:** LES-PLAN-v2.2
+**Document Code:** LES-PLAN-v2.3
 
 ---
 
@@ -576,10 +576,17 @@ A module or feature is not considered complete until all of the following criter
 ### 11.4 Architecture Quality Standards
 
 - No architectural decision is implemented without a corresponding ADR
+- ADR files follow the convention `ADR-YYYY-MM-DD.md` — one file per day, all decisions grouped by subject within the file
 - The complete data model is designed before any module is built
 - Security is considered at every layer — not added after the fact
 - Cost implications are assessed at every phase gate
-- Diagrams are updated whenever the architecture changes
+- Diagrams are updated whenever the architecture changes — using the confirmed standards: C4 Model, BPMN 2.0, ERD, Azure Architecture icons in draw.io
+
+### 11.5 Journal Standards
+
+- One journal entry per week — covers all sessions across all days that week
+- Document code: LES-JOUR-000[NNN]
+- Published to GitBook when content is substantial, standalone, and reader-facing
 
 ---
 
@@ -733,6 +740,7 @@ nikidigitals.com
 | 2.0 | May 2026 | Nicolette M. Langendam | Added project governance, scope management, risk register, assumptions & constraints, budget & resource plan, quality standards, stakeholder map. Corrected certification pathway. Added dual learning track section. Two additional foundational principles added. |
 | 2.1 | May 2026 | Nicolette M. Langendam | Added Section 4.5 — Environment Architecture. Demo environment strategy defined. Demo persona concept established. LES-demo-data repository added. R-009 added to risk register. Budget table updated to reflect demo environment costs. |
 | 2.2 | May 2026 | Nicolette M. Langendam | Repository architecture corrected — 16 repositories confirmed, correct naming conventions applied, GitHub Organisation removed in favour of NikiDigitals personal account. Agent framework corrected — custom-built system confirmed, Semantic Kernel and AutoGen repositioned as reference study only. GitBook URL corrected. LinkedIn URL placeholder replaced. GitHub repository count corrected to 16. GitBook sync statement corrected — manual publish process documented accurately. Commit message convention added to Section 11.2. |
+| 2.3 | May 2026 | Nicolette M. Langendam | Repository count updated to 18 — LES-DASH and LES-demo-data added. ADR convention updated — one dated file per day, grouped by subject. Journal cadence updated — one entry per week. Diagramming standards added to Section 11.4 — C4, BPMN 2.0, ERD, Azure icons, draw.io. Section 11.5 added — journal standards. |
 
 ### Review Schedule
 

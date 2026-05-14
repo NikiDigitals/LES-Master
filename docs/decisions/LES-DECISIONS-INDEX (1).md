@@ -80,8 +80,21 @@ This document is the master index of all architectural, strategic, and operation
 | 58 | ADR-000058 | WP Mail SMTP configured — mail.site.eu, contact@nikidigitals.com | May 2026 |
 | 59 | ADR-000059 | About page leads with professional identity — LES as current flagship | May 2026 |
 | 60 | ADR-000060 | Experience section added to About page — six roles confirmed | May 2026 |
-| 61 | ADR-000061 | LES-KNW identified as future native documentation database — GitHub and GitBook serve Phase 0–2, LES-KNW absorbs from Phase 3 | May 2026 |
-| 62 | ADR-000062 | Diagramming standards adopted — C4 Model for system architecture, BPMN 2.0 for process flows, ERD for data models, Azure icons for infrastructure. draw.io as primary tool. | May 2026 |
+| 61 | ADR-000061 | LES-KNW identified as future native documentation database | May 2026 |
+| 62 | ADR-000062 | Diagramming standards adopted — C4, BPMN 2.0, ERD, Azure icons | May 2026 |
+| 63 | ADR-000063 | ADR file convention — one file per day, grouped by subject | May 2026 |
+| 64 | ADR-000064 | Journal entry cadence — one entry per week | May 2026 |
+
+## ADR File Convention
+
+ADR files follow the naming convention `ADR-YYYY-MM-DD.md` — one file per day, all decisions grouped by subject within the file. Sections: Architecture Decisions, Strategic Decisions, Technology Decisions, Operational Decisions.
+
+**File location:** `LES-Master/docs/decisions/`
+
+| File | Decisions Covered |
+|---|---|
+| `ADR-2026-05-12.md` | ADR-000001 through ADR-000060 |
+| `ADR-2026-05-14.md` | ADR-000061 through ADR-000064 |
 
 ---
 
@@ -89,11 +102,11 @@ This document is the master index of all architectural, strategic, and operation
 
 | Status | Count |
 |---|---|
-| Decisions made — index entry exists | 62 |
-| Full ADR files written | 0 |
+| Decisions made — index entry exists | 64 |
+| ADR daily files written | 2 |
 | Published to GitBook | 0 |
 
-ADR files are written in dedicated LES-DOCS sessions. Priority order for first batch: ADR-000001 through ADR-000010.
+GitBook publication of selected ADRs (GitBook: Yes) scheduled for dedicated LES-DOCS session.
 
 ---
 

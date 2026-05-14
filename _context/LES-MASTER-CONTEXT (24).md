@@ -193,7 +193,10 @@ NikiDigitals  (professional identity — permanent)
 - [x] Global typography set — Syne Bold headings, DM Sans body ✅
 - [x] Global colour system applied — full brand system ✅
 - [x] Header styled — Navy Night, white navigation, Circuit Blue border ✅
-- [ ] Insights page — build and content
+- [x] Insights page built and published ✅
+- [x] Responsive pass complete — all six pages — desktop, tablet, mobile ✅
+- [x] Mobile hamburger menu fixed — Off-Canvas menu assigned ✅
+- [x] All six page content files committed to GitHub — LES-PORT/website/pages/ ✅
 - [ ] AZ-900 study begun (Microsoft Learn)
 - [ ] GitHub Foundations study begun
 - [ ] Master architecture diagram started
@@ -204,7 +207,7 @@ NikiDigitals  (professional identity — permanent)
 ## WEBSITE STATUS — nikidigitals.com
 
 **Platform:** WordPress + Astra theme + Elementor Free  
-**Status:** Live — all core pages built and published
+**Status:** Live — all six pages built, styled, and responsive
 
 | Page | Status | Notes |
 |---|---|---|
@@ -212,7 +215,7 @@ NikiDigitals  (professional identity — permanent)
 | LES — The Project | ✅ Live | Full page built in LES-WEBSITE-002 |
 | Portfolio | ✅ Live | Three-button card template established |
 | About | ✅ Live | Full experience section included |
-| Insights | ⚠️ Navigation only | Page not yet built — next session |
+| Insights | ✅ Live | Built in LES-WEBSITE-003 — first article pending |
 | Contact | ✅ Live | WPForms + WP Mail SMTP configured |
 
 **Email configuration:**
@@ -237,8 +240,8 @@ NikiDigitals  (professional identity — permanent)
 
 ## DECISIONS MADE
 
-Full decisions index: `LES-Master/docs/decisions/LES-DECISIONS-INDEX.md`  
-Full ADR files: `LES-Master/docs/decisions/ADR-000[NNN].md`  
+Full decisions index: `LES-Master/docs/decisions/LES-DECISIONS-INDEX.md`
+ADR files: `LES-Master/docs/decisions/ADR-YYYY-MM-DD.md` — one file per day, grouped by subject
 GitBook: Decision Log section
 
 | # | Decision | Date |
@@ -292,7 +295,7 @@ GitBook: Decision Log section
 | 47 | Public identity architecture formalised | May 2026 |
 | 48 | LinkedIn personal profile confirmed as primary portfolio destination | May 2026 |
 | 49 | Bitwarden adopted as password manager | May 2026 |
-| 50 | One journal entry per day — consolidates all chats | May 2026 |
+| 50 | One journal entry per week — consolidates all sessions that week | May 2026 |
 | 51 | LES-DASH established as a dedicated repository | May 2026 |
 | 52 | Brand colour system defined — extracted from NikiDigitals logo | May 2026 |
 | 53 | Typography confirmed — Syne Bold headings, DM Sans body | May 2026 |
@@ -305,6 +308,8 @@ GitBook: Decision Log section
 | 60 | Experience section added to About page — six roles confirmed | May 2026 |
 | 61 | LES-KNW identified as future native documentation database | May 2026 |
 | 62 | Diagramming standards adopted — C4, BPMN 2.0, ERD, Azure icons | May 2026 |
+| 63 | ADR file convention — one file per day, grouped by subject — ADR-YYYY-MM-DD.md | May 2026 |
+| 64 | Journal entry cadence — one entry per week | May 2026 |
 
 ---
 
@@ -312,26 +317,25 @@ GitBook: Decision Log section
 
 | Task | Priority | Chat Type | Status |
 |---|---|---|---|
-| Build Insights page | High | LES-WEBSITE-003 | Not started |
-| Responsive pass — tablet and mobile — all pages | High | LES-WEBSITE-003 | Not started |
-| Fix white gap — Contact page form section | Low | LES-WEBSITE-003 | Logged |
-| Commit ADR-TEMPLATE.md to GitHub | High | LES-MENTOR | Not started |
-| Create LES-DASH and LES-demo-data as placeholder repositories | High | LES-SETUP | Not started |
+| Begin AZ-900 study — Microsoft Learn Module 1 | High | LES-LEARN-AZ900 | Not started |
+| Begin GitHub Foundations study | High | LES-LEARN-GH | Not started |
+| Write first Insights article | High | LES-DOCS-001 | Not started |
+| GitBook infrastructure review — populate sections | High | LES-MENTOR / LES-DOCS | Not started |
+| Create LES-DASH and LES-demo-data repositories on GitHub | High | LES-SETUP | Not started |
 | Update repository count and architecture across all four portfolio layers | High | LES-DOCS | Not started |
 | Add LES-DASH and LES-demo-data to GitBook infrastructure documentation | Medium | LES-DOCS | Not started |
-| Add LES-DASH and LES-demo-data to GitHub README portfolio table | Medium | LES-MENTOR | Not started |
 | Update project plan v2.2 → v2.3 — repository architecture section | Medium | LES-MENTOR | Not started |
-| Begin GitHub Foundations study | High | LES-LEARN-GH | Not started |
-| Register on Microsoft Learn and begin AZ-900 Module 1 | High | LES-LEARN-AZ900 | In progress |
-| Write LES-JOUR-000003 — Website build sessions | Medium | LES-DOCS | Not started |
-| Write ADR-000014 — GitHub and GitBook audiences | Medium | LES-DOCS | Not started |
-| Write ADR-000015 — LES-PORT repository decision | Medium | LES-DOCS | Not started |
-| Write ADR-000016 — Articles & Publications section | Medium | LES-DOCS | Not started |
-| Write ADR-000017 — Demo environment and synthetic persona | Medium | LES-DOCS | Not started |
+| Commit ADR-TEMPLATE.md to GitHub | High | LES-MENTOR | Not started |
+| Write "Using Claude as a Mentor" — decide placement GitBook or LinkedIn | Medium | LES-DOCS | Not started |
+| Write ADR-000062 — Diagramming standards | High | LES-DOCS | Not started |
+| Write ADR-000051 — LES-DASH dedicated repository | Medium | LES-DOCS | Not started |
+| Write ADR-000014 through ADR-000017 | Medium | LES-DOCS | Not started |
 | Write ADR-000018 — Brand identity and colour system | Medium | LES-DOCS | Not started |
 | Draft LinkedIn article 1 | Medium | LES-DOCS | Not started |
 | Create master architecture diagram | Medium | LES-BUILD | Not started |
 | Synthetic persona design — demo environment | Medium | LES-BUILD | Phase 1 prep |
+| Fix white gap — Contact page form section | Low | LES-WEBSITE-003 | Logged — cosmetic |
+| Responsive pass follow-up check | Low | LES-WEBSITE-003 | Logged |
 
 ---
 
@@ -514,25 +518,31 @@ LES-[MODULE]/
 
 ---
 
-## END OF DAY RITUAL
+## END OF WEEK RITUAL
 
-**Trigger:** When the student says "finalise day" in LES-MENTOR.
+**Trigger:** When the student says "finalise day" or "finalise week" in LES-MENTOR.
 
 **Protocol:**
-1. Student reports all completed tasks across all chats that day
+1. Student reports all completed tasks across all chats
 2. Master context updated — tasks ticked, decisions added, checklist updated
-3. One consolidated journal entry written — covers all sessions that day
-4. Decision made together — does today's content warrant a GitBook version?
-5. All files committed to GitHub
+3. ADR file written for the day — all decisions grouped by subject in one dated file
+4. Weekly journal entry written at end of week — covers all sessions across all days
+5. Decision made together — does this week's journal warrant a GitBook version?
+6. All files committed to GitHub
+
+**ADR file format:**
+- One file per day: `ADR-YYYY-MM-DD.md`
+- Internal sections: Architecture Decisions, Strategic Decisions, Technology Decisions, Operational Decisions
+- Each decision: decision statement + rationale. Full alternatives/consequences for high-impact decisions only.
+- GitBook: Yes/No flag on each decision
 
 **Journal entry format:**
-- One entry per day regardless of how many chats were opened
+- One entry per week — covers all sessions across all days that week
 - Document code: next available LES-JOUR-000[NNN]
-- Covers all sessions, decisions, and learnings from the full day
-- GitBook version only if the content is substantial, standalone, and reader-facing
+- GitBook version only if content is substantial, standalone, and reader-facing
 
 **Commit message format:**
-`LES-MENTOR [Day] — End of day — [brief summary]`
+`LES-MENTOR Week [N] — End of week — [brief summary]`
 
 ---
 
@@ -550,7 +560,9 @@ You are acting as a mentor, teacher, and technical guide for this project. Your 
 - **Tone** — businesslike and professional at all times. Academic rigour in documentation outputs.
 - **Scope** — respect chat boundaries. Direct setup, learning, and build work to the appropriate chat type.
 - **Documentation briefing on every session close** — at the close of every session Claude produces a Documentation Briefing covering: (1) ADRs to write; (2) Journal entry; (3) GitHub commits required; (4) GitBook publications required.
-- **Session closing ritual** — at the end of every day the student should: update master context, commit all documents to GitHub, write one consolidated journal entry covering all sessions that day. Ten minutes maximum.
+- **ADR cadence** — one file per day. All decisions made that day grouped by subject. File naming: ADR-YYYY-MM-DD.md. Sections: Architecture, Strategic, Technology, Operational.
+- **Journal cadence** — one entry per week at end of week. Covers all sessions across all days that week. Published to GitBook when content warrants it.
+- **Documentation check on every status update** — every time the student brings a status update, run a documentation check before anything else.
 
 The student is a complete beginner who will become an expert. Treat every session as a step in that journey.
 
